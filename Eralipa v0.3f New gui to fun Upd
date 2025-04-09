@@ -153,26 +153,16 @@ local NullZone = Instance.new("TextLabel")
 local UICorner_64 = Instance.new("UICorner")
 local ButtonNullzone = Instance.new("TextButton")
 local UICorner_65 = Instance.new("UICorner")
-local ReFov = Instance.new("TextLabel")
-local UICorner_66 = Instance.new("UICorner")
-local ButtonReFov = Instance.new("TextButton")
-local UICorner_67 = Instance.new("UICorner")
-local Fov8090 = Instance.new("TextLabel")
-local UICorner_68 = Instance.new("UICorner")
-local ButtonFov80 = Instance.new("TextButton")
-local UICorner_69 = Instance.new("UICorner")
-local ButtonFov90 = Instance.new("TextButton")
-local UICorner_70 = Instance.new("UICorner")
 local GameuiMenu = Instance.new("Frame")
 local infsmi = Instance.new("TextLabel")
-local UICorner_71 = Instance.new("UICorner")
+local UICorner_66 = Instance.new("UICorner")
 local PriLif = Instance.new("TextLabel")
-local UICorner_72 = Instance.new("UICorner")
+local UICorner_67 = Instance.new("UICorner")
 local Reme = Instance.new("TextLabel")
 local UIGradient_3 = Instance.new("UIGradient")
 local Remetext = Instance.new("TextLabel")
 local Xclosedestroy = Instance.new("TextButton")
-local UICorner_73 = Instance.new("UICorner")
+local UICorner_68 = Instance.new("UICorner")
 local ChangelogMenuHome = Instance.new("Frame")
 local Changelog = Instance.new("TextLabel")
 local upd1 = Instance.new("TextLabel")
@@ -1401,83 +1391,6 @@ ButtonNullzone.TextSize = 18.000
 UICorner_65.CornerRadius = UDim.new(0, 3)
 UICorner_65.Parent = ButtonNullzone
 
-ReFov.Name = "ReFov"
-ReFov.Parent = ScrollingFrameUniversal
-ReFov.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
-ReFov.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ReFov.BorderSizePixel = 0
-ReFov.Position = UDim2.new(0.000155218717, 0, 0.0412979349, 500)
-ReFov.Size = UDim2.new(0, 436, 0, 26)
-ReFov.Font = Enum.Font.Roboto
-ReFov.Text = "Reset Fov"
-ReFov.TextColor3 = Color3.fromRGB(255, 255, 255)
-ReFov.TextSize = 18.000
-ReFov.TextXAlignment = Enum.TextXAlignment.Left
-
-UICorner_66.CornerRadius = UDim.new(0, 3)
-UICorner_66.Parent = ReFov
-
-ButtonReFov.Name = "ButtonReFov"
-ButtonReFov.Parent = ReFov
-ButtonReFov.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-ButtonReFov.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ButtonReFov.BorderSizePixel = 0
-ButtonReFov.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
-ButtonReFov.Size = UDim2.new(0, 124, 0, 26)
-ButtonReFov.Font = Enum.Font.Roboto
-ButtonReFov.Text = "Click"
-ButtonReFov.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonReFov.TextSize = 18.000
-
-UICorner_67.CornerRadius = UDim.new(0, 3)
-UICorner_67.Parent = ButtonReFov
-
-Fov8090.Name = "Fov8090"
-Fov8090.Parent = ScrollingFrameUniversal
-Fov8090.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
-Fov8090.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Fov8090.BorderSizePixel = 0
-Fov8090.Position = UDim2.new(0.000155218717, 0, 0.0619469024, 500)
-Fov8090.Size = UDim2.new(0, 436, 0, 26)
-Fov8090.Font = Enum.Font.Roboto
-Fov8090.Text = "Fov"
-Fov8090.TextColor3 = Color3.fromRGB(255, 255, 255)
-Fov8090.TextSize = 18.000
-Fov8090.TextXAlignment = Enum.TextXAlignment.Left
-
-UICorner_68.CornerRadius = UDim.new(0, 3)
-UICorner_68.Parent = Fov8090
-
-ButtonFov80.Name = "ButtonFov80"
-ButtonFov80.Parent = Fov8090
-ButtonFov80.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-ButtonFov80.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ButtonFov80.BorderSizePixel = 0
-ButtonFov80.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
-ButtonFov80.Size = UDim2.new(0, 124, 0, 26)
-ButtonFov80.Font = Enum.Font.Roboto
-ButtonFov80.Text = "80"
-ButtonFov80.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonFov80.TextSize = 18.000
-
-UICorner_69.CornerRadius = UDim.new(0, 3)
-UICorner_69.Parent = ButtonFov80
-
-ButtonFov90.Name = "ButtonFov90"
-ButtonFov90.Parent = Fov8090
-ButtonFov90.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-ButtonFov90.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ButtonFov90.BorderSizePixel = 0
-ButtonFov90.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
-ButtonFov90.Size = UDim2.new(0, 124, 0, 26)
-ButtonFov90.Font = Enum.Font.Roboto
-ButtonFov90.Text = "90"
-ButtonFov90.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonFov90.TextSize = 18.000
-
-UICorner_70.CornerRadius = UDim.new(0, 3)
-UICorner_70.Parent = ButtonFov90
-
 GameuiMenu.Name = "GameuiMenu"
 GameuiMenu.Parent = Frame1
 GameuiMenu.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
@@ -1499,8 +1412,8 @@ infsmi.Text = "Infectious smile *Work*"
 infsmi.TextColor3 = Color3.fromRGB(255, 255, 255)
 infsmi.TextSize = 15.000
 
-UICorner_71.CornerRadius = UDim.new(0, 50)
-UICorner_71.Parent = infsmi
+UICorner_66.CornerRadius = UDim.new(0, 50)
+UICorner_66.Parent = infsmi
 
 PriLif.Name = "Pri Lif"
 PriLif.Parent = GameuiMenu
@@ -1514,8 +1427,8 @@ PriLif.Text = "Prison Life *Work*"
 PriLif.TextColor3 = Color3.fromRGB(255, 255, 255)
 PriLif.TextSize = 15.000
 
-UICorner_72.CornerRadius = UDim.new(0, 50)
-UICorner_72.Parent = PriLif
+UICorner_67.CornerRadius = UDim.new(0, 50)
+UICorner_67.Parent = PriLif
 
 Reme.Name = "Re me"
 Reme.Parent = GameuiMenu
@@ -1559,7 +1472,7 @@ Xclosedestroy.Text = "X"
 Xclosedestroy.TextColor3 = Color3.fromRGB(170, 0, 0)
 Xclosedestroy.TextSize = 20.000
 
-UICorner_73.Parent = Xclosedestroy
+UICorner_68.Parent = Xclosedestroy
 
 ChangelogMenuHome.Name = "ChangelogMenuHome"
 ChangelogMenuHome.Parent = Frame1
@@ -1623,7 +1536,7 @@ upd3.TextSize = 16.000
 
 -- Scripts:
 
-local function BQBQPEZ_fake_script() -- Frame1.LocalScript 
+local function ROAU_fake_script() -- Frame1.LocalScript 
 	local script = Instance.new('LocalScript', Frame1)
 
 	local frame = script.Parent
@@ -1650,8 +1563,8 @@ local function BQBQPEZ_fake_script() -- Frame1.LocalScript
 	
 	frame.PlayerName.Text = player.Name
 end
-coroutine.wrap(BQBQPEZ_fake_script)()
-local function HZXRCF_fake_script() -- ButtonCrashFPS.LocalScript 
+coroutine.wrap(ROAU_fake_script)()
+local function AAILMSW_fake_script() -- ButtonCrashFPS.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCrashFPS)
 
 	ButtonCrashFPS.MouseButton1Down:Connect(function()
@@ -1694,8 +1607,8 @@ local function HZXRCF_fake_script() -- ButtonCrashFPS.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HZXRCF_fake_script)()
-local function VZCRUSL_fake_script() -- ButtonServerHop.LocalScript 
+coroutine.wrap(AAILMSW_fake_script)()
+local function QGTO_fake_script() -- ButtonServerHop.LocalScript 
 	local script = Instance.new('LocalScript', ButtonServerHop)
 
 	ButtonServerHop.MouseButton1Down:Connect(function()
@@ -1724,8 +1637,8 @@ local function VZCRUSL_fake_script() -- ButtonServerHop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VZCRUSL_fake_script)()
-local function YBHUM_fake_script() -- ButtonRejoin.LocalScript 
+coroutine.wrap(QGTO_fake_script)()
+local function USFETI_fake_script() -- ButtonRejoin.LocalScript 
 	local script = Instance.new('LocalScript', ButtonRejoin)
 
 	ButtonRejoin.MouseButton1Down:Connect(function()
@@ -1738,8 +1651,8 @@ local function YBHUM_fake_script() -- ButtonRejoin.LocalScript
 		ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
 	end)
 end
-coroutine.wrap(YBHUM_fake_script)()
-local function KXONJIE_fake_script() -- ButtonCursorTrue.LocalScript 
+coroutine.wrap(USFETI_fake_script)()
+local function EARS_fake_script() -- ButtonCursorTrue.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCursorTrue)
 
 	ButtonCursorTrue.MouseButton1Down:Connect(function()
@@ -1747,8 +1660,8 @@ local function KXONJIE_fake_script() -- ButtonCursorTrue.LocalScript
 		UserInputService.MouseIconEnabled = true
 	end)
 end
-coroutine.wrap(KXONJIE_fake_script)()
-local function JIPYWSX_fake_script() -- ButtonCursorfalse.LocalScript 
+coroutine.wrap(EARS_fake_script)()
+local function WAMICA_fake_script() -- ButtonCursorfalse.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCursorfalse)
 
 	ButtonCursorfalse.MouseButton1Down:Connect(function()
@@ -1756,8 +1669,8 @@ local function JIPYWSX_fake_script() -- ButtonCursorfalse.LocalScript
 		UserInputService.MouseIconEnabled = false
 	end)
 end
-coroutine.wrap(JIPYWSX_fake_script)()
-local function OLAEPBA_fake_script() -- Cute.LocalScript 
+coroutine.wrap(WAMICA_fake_script)()
+local function RUMCQP_fake_script() -- Cute.LocalScript 
 	local script = Instance.new('LocalScript', Cute)
 
 	local frame = script.Parent.Parent.Cutefav
@@ -1820,8 +1733,8 @@ local function OLAEPBA_fake_script() -- Cute.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(OLAEPBA_fake_script)()
-local function DTSZ_fake_script() -- Gameui.LocalScript 
+coroutine.wrap(RUMCQP_fake_script)()
+local function KYOUZGN_fake_script() -- Gameui.LocalScript 
 	local script = Instance.new('LocalScript', Gameui)
 
 	local frameG = script.Parent.Parent.GameuiMenu
@@ -1884,8 +1797,8 @@ local function DTSZ_fake_script() -- Gameui.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(DTSZ_fake_script)()
-local function MQYXCRG_fake_script() -- Universal.LocalScript 
+coroutine.wrap(KYOUZGN_fake_script)()
+local function KQIWNS_fake_script() -- Universal.LocalScript 
 	local script = Instance.new('LocalScript', Universal)
 
 	local frameU = script.Parent.Parent.UniversalMenu
@@ -1948,8 +1861,8 @@ local function MQYXCRG_fake_script() -- Universal.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(MQYXCRG_fake_script)()
-local function HRWEDKN_fake_script() -- Setting.LocalScript 
+coroutine.wrap(KQIWNS_fake_script)()
+local function IKAAPM_fake_script() -- Setting.LocalScript 
 	local script = Instance.new('LocalScript', Setting)
 
 	local frameG = script.Parent.Parent.SettingMenu
@@ -2012,8 +1925,8 @@ local function HRWEDKN_fake_script() -- Setting.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(HRWEDKN_fake_script)()
-local function CNKHGF_fake_script() -- Home.LocalScript 
+coroutine.wrap(IKAAPM_fake_script)()
+local function LNRTOZ_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	local frame = script.Parent.Parent.Cutefav
@@ -2076,8 +1989,8 @@ local function CNKHGF_fake_script() -- Home.LocalScript
 		frameG.Visible = true
 	end)
 end
-coroutine.wrap(CNKHGF_fake_script)()
-local function LFLI_fake_script() -- ButtonTpTool.LocalScript 
+coroutine.wrap(LNRTOZ_fake_script)()
+local function XOUSU_fake_script() -- ButtonTpTool.LocalScript 
 	local script = Instance.new('LocalScript', ButtonTpTool)
 
 	ButtonTpTool.MouseButton1Down:Connect(function()
@@ -2094,8 +2007,8 @@ local function LFLI_fake_script() -- ButtonTpTool.LocalScript
 	
 	end)
 end
-coroutine.wrap(LFLI_fake_script)()
-local function PQACL_fake_script() -- ButtonView.LocalScript 
+coroutine.wrap(XOUSU_fake_script)()
+local function LEWEM_fake_script() -- ButtonView.LocalScript 
 	local script = Instance.new('LocalScript', ButtonView)
 
 	plrNum = 1
@@ -2115,8 +2028,8 @@ local function PQACL_fake_script() -- ButtonView.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PQACL_fake_script)()
-local function RWWU_fake_script() -- ButtonBackView.LocalScript 
+coroutine.wrap(LEWEM_fake_script)()
+local function FTRTQ_fake_script() -- ButtonBackView.LocalScript 
 	local script = Instance.new('LocalScript', ButtonBackView)
 
 	plrNum = 1
@@ -2136,16 +2049,16 @@ local function RWWU_fake_script() -- ButtonBackView.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RWWU_fake_script)()
-local function ONSPSPC_fake_script() -- ButtonCrashPlr.LocalScript 
+coroutine.wrap(FTRTQ_fake_script)()
+local function TEIK_fake_script() -- ButtonCrashPlr.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCrashPlr)
 
 	ButtonCrashPlr.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, -450, 1)
 	end)
 end
-coroutine.wrap(ONSPSPC_fake_script)()
-local function TUZW_fake_script() -- ButtonCtrlTp.LocalScript 
+coroutine.wrap(TEIK_fake_script)()
+local function RUFLMOW_fake_script() -- ButtonCtrlTp.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCtrlTp)
 
 	ButtonCtrlTp.MouseButton1Down:Connect(function()
@@ -2174,8 +2087,8 @@ local function TUZW_fake_script() -- ButtonCtrlTp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TUZW_fake_script)()
-local function RXWV_fake_script() -- ButtonFly.LocalScript 
+coroutine.wrap(RUFLMOW_fake_script)()
+local function XZOYJS_fake_script() -- ButtonFly.LocalScript 
 	local script = Instance.new('LocalScript', ButtonFly)
 
 	speeds = 1
@@ -2361,182 +2274,152 @@ local function RXWV_fake_script() -- ButtonFly.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RXWV_fake_script)()
-local function JYKKZ_fake_script() -- ButtonReWalk.LocalScript 
+coroutine.wrap(XZOYJS_fake_script)()
+local function OTDMC_fake_script() -- ButtonReWalk.LocalScript 
 	local script = Instance.new('LocalScript', ButtonReWalk)
 
 	ButtonReWalk.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 	end)
 end
-coroutine.wrap(JYKKZ_fake_script)()
-local function FGXT_fake_script() -- ButtonWalk25.LocalScript 
+coroutine.wrap(OTDMC_fake_script)()
+local function VQDP_fake_script() -- ButtonWalk25.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk25)
 
 	ButtonWalk25.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
 	end)
 end
-coroutine.wrap(FGXT_fake_script)()
-local function IEEFNEI_fake_script() -- ButtonWalk50.LocalScript 
+coroutine.wrap(VQDP_fake_script)()
+local function ZTBLU_fake_script() -- ButtonWalk50.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk50)
 
 	ButtonWalk50.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 	end)
 end
-coroutine.wrap(IEEFNEI_fake_script)()
-local function XUEKT_fake_script() -- ButtonWalk100.LocalScript 
+coroutine.wrap(ZTBLU_fake_script)()
+local function ZWXUJP_fake_script() -- ButtonWalk100.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk100)
 
 	ButtonWalk100.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 	end)
 end
-coroutine.wrap(XUEKT_fake_script)()
-local function TDTN_fake_script() -- ButtonWalk150.LocalScript 
+coroutine.wrap(ZWXUJP_fake_script)()
+local function XIVJ_fake_script() -- ButtonWalk150.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk150)
 
 	ButtonWalk150.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
 	end)
 end
-coroutine.wrap(TDTN_fake_script)()
-local function RRQIMEK_fake_script() -- ButtonReJump.LocalScript 
+coroutine.wrap(XIVJ_fake_script)()
+local function UTUHZ_fake_script() -- ButtonReJump.LocalScript 
 	local script = Instance.new('LocalScript', ButtonReJump)
 
 	ButtonReJump.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 	end)
 end
-coroutine.wrap(RRQIMEK_fake_script)()
-local function MCDH_fake_script() -- ButtonJump100.LocalScript 
+coroutine.wrap(UTUHZ_fake_script)()
+local function CHNANE_fake_script() -- ButtonJump100.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump100)
 
 	ButtonJump100.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
 	end)
 end
-coroutine.wrap(MCDH_fake_script)()
-local function AWLPFTV_fake_script() -- ButtonJump150.LocalScript 
+coroutine.wrap(CHNANE_fake_script)()
+local function GGEZNY_fake_script() -- ButtonJump150.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump150)
 
 	ButtonJump150.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
 	end)
 end
-coroutine.wrap(AWLPFTV_fake_script)()
-local function UOHQ_fake_script() -- ButtonJump200.LocalScript 
+coroutine.wrap(GGEZNY_fake_script)()
+local function CIDZR_fake_script() -- ButtonJump200.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump200)
 
 	ButtonJump200.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
 	end)
 end
-coroutine.wrap(UOHQ_fake_script)()
-local function DYGA_fake_script() -- ButtonJump250.LocalScript 
+coroutine.wrap(CIDZR_fake_script)()
+local function CWIV_fake_script() -- ButtonJump250.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump250)
 
 	ButtonJump250.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 250
 	end)
 end
-coroutine.wrap(DYGA_fake_script)()
-local function FWYDLH_fake_script() -- ButtonRespawn.LocalScript 
+coroutine.wrap(CWIV_fake_script)()
+local function CKXOMG_fake_script() -- ButtonRespawn.LocalScript 
 	local script = Instance.new('LocalScript', ButtonRespawn)
 
 	ButtonRespawn.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	end)
 end
-coroutine.wrap(FWYDLH_fake_script)()
-local function HHSGUJ_fake_script() -- ButtonWalk200.LocalScript 
+coroutine.wrap(CKXOMG_fake_script)()
+local function BQHU_fake_script() -- ButtonWalk200.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk200)
 
 	ButtonWalk200.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
 	end)
 end
-coroutine.wrap(HHSGUJ_fake_script)()
-local function TWIO_fake_script() -- ButtonWalk300.LocalScript 
+coroutine.wrap(BQHU_fake_script)()
+local function LZUT_fake_script() -- ButtonWalk300.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk300)
 
 	ButtonWalk300.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300
 	end)
 end
-coroutine.wrap(TWIO_fake_script)()
-local function QEJYGGF_fake_script() -- ButtonJump300.LocalScript 
+coroutine.wrap(LZUT_fake_script)()
+local function ZMYITPH_fake_script() -- ButtonJump300.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump300)
 
 	ButtonJump300.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 300
 	end)
 end
-coroutine.wrap(QEJYGGF_fake_script)()
-local function BLTAST_fake_script() -- ButtonJump500.LocalScript 
+coroutine.wrap(ZMYITPH_fake_script)()
+local function GAHQBV_fake_script() -- ButtonJump500.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump500)
 
 	ButtonJump500.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
 	end)
 end
-coroutine.wrap(BLTAST_fake_script)()
-local function XDXAQGR_fake_script() -- ButtonVoidPlr.LocalScript 
+coroutine.wrap(GAHQBV_fake_script)()
+local function ELZMJ_fake_script() -- ButtonVoidPlr.LocalScript 
 	local script = Instance.new('LocalScript', ButtonVoidPlr)
 
 	ButtonVoidPlr.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, -500, 1)
 	end)
 end
-coroutine.wrap(XDXAQGR_fake_script)()
-local function FQDP_fake_script() -- ButtonKickPlr.LocalScript 
+coroutine.wrap(ELZMJ_fake_script)()
+local function JWMLF_fake_script() -- ButtonKickPlr.LocalScript 
 	local script = Instance.new('LocalScript', ButtonKickPlr)
 
 	ButtonKickPlr.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer:Kick("You've Quit the Game!")
 	end)
 end
-coroutine.wrap(FQDP_fake_script)()
-local function CPJPAY_fake_script() -- ButtonNullzone.LocalScript 
+coroutine.wrap(JWMLF_fake_script)()
+local function MOBTWMW_fake_script() -- ButtonNullzone.LocalScript 
 	local script = Instance.new('LocalScript', ButtonNullzone)
 
 	ButtonNullzone.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(999999999999999, 99999999999999999999999999999999999, 1)
 	end)
 end
-coroutine.wrap(CPJPAY_fake_script)()
-local function QLHAU_fake_script() -- ButtonReFov.LocalScript 
-	local script = Instance.new('LocalScript', ButtonReFov)
-
-	ButtonReFov.MouseButton1Down:Connect(function()
-		local FovNumber = 70--Enter your FOV number here
-		local Camera = workspace.CurrentCamera
-		Camera.FieldOfView = FovNumber
-	end)
-end
-coroutine.wrap(QLHAU_fake_script)()
-local function QISDX_fake_script() -- ButtonFov80.LocalScript 
-	local script = Instance.new('LocalScript', ButtonFov80)
-
-	ButtonFov80.MouseButton1Down:Connect(function()
-		local FovNumber = 80 --Enter your FOV number here
-		local Camera = workspace.CurrentCamera
-		Camera.FieldOfView = FovNumber
-	end)
-end
-coroutine.wrap(QISDX_fake_script)()
-local function OHBWIT_fake_script() -- ButtonFov90.LocalScript 
-	local script = Instance.new('LocalScript', ButtonFov90)
-
-	ButtonFov90.MouseButton1Down:Connect(function()
-		local FovNumber = 90--Enter your FOV number here
-		local Camera = workspace.CurrentCamera
-		Camera.FieldOfView = FovNumber
-	end)
-end
-coroutine.wrap(OHBWIT_fake_script)()
-local function ZPGB_fake_script() -- Xclosedestroy.LocalScript 
+coroutine.wrap(MOBTWMW_fake_script)()
+local function WZHX_fake_script() -- Xclosedestroy.LocalScript 
 	local script = Instance.new('LocalScript', Xclosedestroy)
 
 	local XCloseDestroy = script.Parent
@@ -2545,8 +2428,8 @@ local function ZPGB_fake_script() -- Xclosedestroy.LocalScript
 	    script.Parent.Parent.Parent.Parent:Destroy() --this references the ScreenGui that everything is connected to, therefore destroying everything (I think)
 	end)
 end
-coroutine.wrap(ZPGB_fake_script)()
-local function UDMVO_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+coroutine.wrap(WZHX_fake_script)()
+local function GFKWEGC_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
 
 	Frame = script.Parent.Frame1
@@ -2554,8 +2437,8 @@ local function UDMVO_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript
 	Frame.Active = true
 	Frame.Selectable = true
 end
-coroutine.wrap(UDMVO_fake_script)()
-local function AGAYV_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+coroutine.wrap(GFKWEGC_fake_script)()
+local function MQWTFVI_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
 
 	local userinputService = game:GetService("UserInputService")
@@ -2569,8 +2452,8 @@ local function AGAYV_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AGAYV_fake_script)()
-local function KUKLM_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+coroutine.wrap(MQWTFVI_fake_script)()
+local function TBYHXRN_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2585,4 +2468,4 @@ local function KUKLM_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript
 		Text = "Completed, Welcome to Eralipa ZX v0.3f",
 	})
 end
-coroutine.wrap(KUKLM_fake_script)()
+coroutine.wrap(TBYHXRN_fake_script)()
