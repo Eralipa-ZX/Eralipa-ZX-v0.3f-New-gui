@@ -141,20 +141,48 @@ local ButtonJump300 = Instance.new("TextButton")
 local UICorner_58 = Instance.new("UICorner")
 local ButtonJump500 = Instance.new("TextButton")
 local UICorner_59 = Instance.new("UICorner")
-local KickPlayer = Instance.new("TextLabel")
+local VoidPlayer = Instance.new("TextLabel")
 local UICorner_60 = Instance.new("UICorner")
-local ButtonKickPlr = Instance.new("TextButton")
+local ButtonVoidPlr = Instance.new("TextButton")
 local UICorner_61 = Instance.new("UICorner")
+local KickPlayer = Instance.new("TextLabel")
+local UICorner_62 = Instance.new("UICorner")
+local ButtonKickPlr = Instance.new("TextButton")
+local UICorner_63 = Instance.new("UICorner")
+local NullZone = Instance.new("TextLabel")
+local UICorner_64 = Instance.new("UICorner")
+local ButtonNullzone = Instance.new("TextButton")
+local UICorner_65 = Instance.new("UICorner")
+local ReFov = Instance.new("TextLabel")
+local UICorner_66 = Instance.new("UICorner")
+local ButtonReFov = Instance.new("TextButton")
+local UICorner_67 = Instance.new("UICorner")
+local Fov8090 = Instance.new("TextLabel")
+local UICorner_68 = Instance.new("UICorner")
+local ButtonFov80 = Instance.new("TextButton")
+local UICorner_69 = Instance.new("UICorner")
+local ButtonFov90 = Instance.new("TextButton")
+local UICorner_70 = Instance.new("UICorner")
+local Fov100110 = Instance.new("TextLabel")
+local UICorner_71 = Instance.new("UICorner")
+local ButtonFov100 = Instance.new("TextButton")
+local UICorner_72 = Instance.new("UICorner")
+local ButtonFov110 = Instance.new("TextButton")
+local UICorner_73 = Instance.new("UICorner")
+local Fov120 = Instance.new("TextLabel")
+local UICorner_74 = Instance.new("UICorner")
+local ButtonFov120 = Instance.new("TextButton")
+local UICorner_75 = Instance.new("UICorner")
 local GameuiMenu = Instance.new("Frame")
 local infsmi = Instance.new("TextLabel")
-local UICorner_62 = Instance.new("UICorner")
+local UICorner_76 = Instance.new("UICorner")
 local PriLif = Instance.new("TextLabel")
-local UICorner_63 = Instance.new("UICorner")
+local UICorner_77 = Instance.new("UICorner")
 local Reme = Instance.new("TextLabel")
 local UIGradient_3 = Instance.new("UIGradient")
 local Remetext = Instance.new("TextLabel")
 local Xclosedestroy = Instance.new("TextButton")
-local UICorner_64 = Instance.new("UICorner")
+local UICorner_78 = Instance.new("UICorner")
 local ChangelogMenuHome = Instance.new("Frame")
 local Changelog = Instance.new("TextLabel")
 local upd1 = Instance.new("TextLabel")
@@ -686,7 +714,6 @@ ScrollingFrameUniversal.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 ScrollingFrameUniversal.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrameUniversal.BorderSizePixel = 0
 ScrollingFrameUniversal.Size = UDim2.new(0, 464, 0, 339)
-ScrollingFrameUniversal.CanvasPosition = Vector2.new(0, 280)
 ScrollingFrameUniversal.CanvasSize = UDim2.new(0, 0, 4, 0)
 
 TeleportTool.Name = "TeleportTool"
@@ -1291,12 +1318,43 @@ ButtonJump500.TextSize = 18.000
 UICorner_59.CornerRadius = UDim.new(0, 3)
 UICorner_59.Parent = ButtonJump500
 
+VoidPlayer.Name = "VoidPlayer"
+VoidPlayer.Parent = ScrollingFrameUniversal
+VoidPlayer.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+VoidPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VoidPlayer.BorderSizePixel = 0
+VoidPlayer.Position = UDim2.new(0.000155218717, 0, 0, 500)
+VoidPlayer.Size = UDim2.new(0, 436, 0, 26)
+VoidPlayer.Font = Enum.Font.Roboto
+VoidPlayer.Text = "Void Player"
+VoidPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+VoidPlayer.TextSize = 18.000
+VoidPlayer.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_60.CornerRadius = UDim.new(0, 3)
+UICorner_60.Parent = VoidPlayer
+
+ButtonVoidPlr.Name = "ButtonVoidPlr"
+ButtonVoidPlr.Parent = VoidPlayer
+ButtonVoidPlr.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonVoidPlr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonVoidPlr.BorderSizePixel = 0
+ButtonVoidPlr.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonVoidPlr.Size = UDim2.new(0, 124, 0, 26)
+ButtonVoidPlr.Font = Enum.Font.Roboto
+ButtonVoidPlr.Text = "Click"
+ButtonVoidPlr.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonVoidPlr.TextSize = 18.000
+
+UICorner_61.CornerRadius = UDim.new(0, 3)
+UICorner_61.Parent = ButtonVoidPlr
+
 KickPlayer.Name = "KickPlayer"
 KickPlayer.Parent = ScrollingFrameUniversal
 KickPlayer.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 KickPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
 KickPlayer.BorderSizePixel = 0
-KickPlayer.Position = UDim2.new(0.000155218717, 0, 0, 500)
+KickPlayer.Position = UDim2.new(0.000155218717, 0, 0.0206489675, 500)
 KickPlayer.Size = UDim2.new(0, 436, 0, 26)
 KickPlayer.Font = Enum.Font.Roboto
 KickPlayer.Text = "Kick Player"
@@ -1304,8 +1362,8 @@ KickPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
 KickPlayer.TextSize = 18.000
 KickPlayer.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_60.CornerRadius = UDim.new(0, 3)
-UICorner_60.Parent = KickPlayer
+UICorner_62.CornerRadius = UDim.new(0, 3)
+UICorner_62.Parent = KickPlayer
 
 ButtonKickPlr.Name = "ButtonKickPlr"
 ButtonKickPlr.Parent = KickPlayer
@@ -1319,8 +1377,193 @@ ButtonKickPlr.Text = "Click"
 ButtonKickPlr.TextColor3 = Color3.fromRGB(255, 255, 255)
 ButtonKickPlr.TextSize = 18.000
 
-UICorner_61.CornerRadius = UDim.new(0, 3)
-UICorner_61.Parent = ButtonKickPlr
+UICorner_63.CornerRadius = UDim.new(0, 3)
+UICorner_63.Parent = ButtonKickPlr
+
+NullZone.Name = "NullZone"
+NullZone.Parent = ScrollingFrameUniversal
+NullZone.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+NullZone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NullZone.BorderSizePixel = 0
+NullZone.Position = UDim2.new(0.000155218717, 0, -0.294985265, 500)
+NullZone.Size = UDim2.new(0, 436, 0, 26)
+NullZone.Font = Enum.Font.Roboto
+NullZone.Text = "Null Zone"
+NullZone.TextColor3 = Color3.fromRGB(255, 255, 255)
+NullZone.TextSize = 18.000
+NullZone.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_64.CornerRadius = UDim.new(0, 3)
+UICorner_64.Parent = NullZone
+
+ButtonNullzone.Name = "ButtonNullzone"
+ButtonNullzone.Parent = NullZone
+ButtonNullzone.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonNullzone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonNullzone.BorderSizePixel = 0
+ButtonNullzone.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonNullzone.Size = UDim2.new(0, 124, 0, 26)
+ButtonNullzone.Font = Enum.Font.Roboto
+ButtonNullzone.Text = "Click"
+ButtonNullzone.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonNullzone.TextSize = 18.000
+
+UICorner_65.CornerRadius = UDim.new(0, 3)
+UICorner_65.Parent = ButtonNullzone
+
+ReFov.Name = "ReFov"
+ReFov.Parent = ScrollingFrameUniversal
+ReFov.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ReFov.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ReFov.BorderSizePixel = 0
+ReFov.Position = UDim2.new(0.000155218717, 0, 0.0412979349, 500)
+ReFov.Size = UDim2.new(0, 436, 0, 26)
+ReFov.Font = Enum.Font.Roboto
+ReFov.Text = "Reset Fov"
+ReFov.TextColor3 = Color3.fromRGB(255, 255, 255)
+ReFov.TextSize = 18.000
+ReFov.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_66.CornerRadius = UDim.new(0, 3)
+UICorner_66.Parent = ReFov
+
+ButtonReFov.Name = "ButtonReFov"
+ButtonReFov.Parent = ReFov
+ButtonReFov.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonReFov.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonReFov.BorderSizePixel = 0
+ButtonReFov.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonReFov.Size = UDim2.new(0, 124, 0, 26)
+ButtonReFov.Font = Enum.Font.Roboto
+ButtonReFov.Text = "Click"
+ButtonReFov.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonReFov.TextSize = 18.000
+
+UICorner_67.CornerRadius = UDim.new(0, 3)
+UICorner_67.Parent = ButtonReFov
+
+Fov8090.Name = "Fov8090"
+Fov8090.Parent = ScrollingFrameUniversal
+Fov8090.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Fov8090.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fov8090.BorderSizePixel = 0
+Fov8090.Position = UDim2.new(0.000155218717, 0, 0.0619469024, 500)
+Fov8090.Size = UDim2.new(0, 436, 0, 26)
+Fov8090.Font = Enum.Font.Roboto
+Fov8090.Text = "Fov"
+Fov8090.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fov8090.TextSize = 18.000
+Fov8090.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_68.CornerRadius = UDim.new(0, 3)
+UICorner_68.Parent = Fov8090
+
+ButtonFov80.Name = "ButtonFov80"
+ButtonFov80.Parent = Fov8090
+ButtonFov80.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonFov80.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonFov80.BorderSizePixel = 0
+ButtonFov80.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonFov80.Size = UDim2.new(0, 124, 0, 26)
+ButtonFov80.Font = Enum.Font.Roboto
+ButtonFov80.Text = "80"
+ButtonFov80.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonFov80.TextSize = 18.000
+
+UICorner_69.CornerRadius = UDim.new(0, 3)
+UICorner_69.Parent = ButtonFov80
+
+ButtonFov90.Name = "ButtonFov90"
+ButtonFov90.Parent = Fov8090
+ButtonFov90.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonFov90.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonFov90.BorderSizePixel = 0
+ButtonFov90.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonFov90.Size = UDim2.new(0, 124, 0, 26)
+ButtonFov90.Font = Enum.Font.Roboto
+ButtonFov90.Text = "90"
+ButtonFov90.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonFov90.TextSize = 18.000
+
+UICorner_70.CornerRadius = UDim.new(0, 3)
+UICorner_70.Parent = ButtonFov90
+
+Fov100110.Name = "Fov100110"
+Fov100110.Parent = ScrollingFrameUniversal
+Fov100110.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Fov100110.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fov100110.BorderSizePixel = 0
+Fov100110.Position = UDim2.new(0.000155218717, 0, 0.0825958699, 500)
+Fov100110.Size = UDim2.new(0, 436, 0, 26)
+Fov100110.Font = Enum.Font.Roboto
+Fov100110.Text = "Fov"
+Fov100110.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fov100110.TextSize = 18.000
+Fov100110.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_71.CornerRadius = UDim.new(0, 3)
+UICorner_71.Parent = Fov100110
+
+ButtonFov100.Name = "ButtonFov100"
+ButtonFov100.Parent = Fov100110
+ButtonFov100.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonFov100.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonFov100.BorderSizePixel = 0
+ButtonFov100.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonFov100.Size = UDim2.new(0, 124, 0, 26)
+ButtonFov100.Font = Enum.Font.Roboto
+ButtonFov100.Text = "100"
+ButtonFov100.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonFov100.TextSize = 18.000
+
+UICorner_72.CornerRadius = UDim.new(0, 3)
+UICorner_72.Parent = ButtonFov100
+
+ButtonFov110.Name = "ButtonFov110"
+ButtonFov110.Parent = Fov100110
+ButtonFov110.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonFov110.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonFov110.BorderSizePixel = 0
+ButtonFov110.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonFov110.Size = UDim2.new(0, 124, 0, 26)
+ButtonFov110.Font = Enum.Font.Roboto
+ButtonFov110.Text = "110"
+ButtonFov110.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonFov110.TextSize = 18.000
+
+UICorner_73.CornerRadius = UDim.new(0, 3)
+UICorner_73.Parent = ButtonFov110
+
+Fov120.Name = "Fov120"
+Fov120.Parent = ScrollingFrameUniversal
+Fov120.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Fov120.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fov120.BorderSizePixel = 0
+Fov120.Position = UDim2.new(0.000155218717, 0, 0.103244841, 500)
+Fov120.Size = UDim2.new(0, 436, 0, 26)
+Fov120.Font = Enum.Font.Roboto
+Fov120.Text = "Fov"
+Fov120.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fov120.TextSize = 18.000
+Fov120.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_74.CornerRadius = UDim.new(0, 3)
+UICorner_74.Parent = Fov120
+
+ButtonFov120.Name = "ButtonFov120"
+ButtonFov120.Parent = Fov120
+ButtonFov120.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonFov120.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonFov120.BorderSizePixel = 0
+ButtonFov120.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonFov120.Size = UDim2.new(0, 124, 0, 26)
+ButtonFov120.Font = Enum.Font.Roboto
+ButtonFov120.Text = "120"
+ButtonFov120.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonFov120.TextSize = 18.000
+
+UICorner_75.CornerRadius = UDim.new(0, 3)
+UICorner_75.Parent = ButtonFov120
 
 GameuiMenu.Name = "GameuiMenu"
 GameuiMenu.Parent = Frame1
@@ -1343,8 +1586,8 @@ infsmi.Text = "Infectious smile *Work*"
 infsmi.TextColor3 = Color3.fromRGB(255, 255, 255)
 infsmi.TextSize = 15.000
 
-UICorner_62.CornerRadius = UDim.new(0, 50)
-UICorner_62.Parent = infsmi
+UICorner_76.CornerRadius = UDim.new(0, 50)
+UICorner_76.Parent = infsmi
 
 PriLif.Name = "Pri Lif"
 PriLif.Parent = GameuiMenu
@@ -1358,8 +1601,8 @@ PriLif.Text = "Prison Life *Work*"
 PriLif.TextColor3 = Color3.fromRGB(255, 255, 255)
 PriLif.TextSize = 15.000
 
-UICorner_63.CornerRadius = UDim.new(0, 50)
-UICorner_63.Parent = PriLif
+UICorner_77.CornerRadius = UDim.new(0, 50)
+UICorner_77.Parent = PriLif
 
 Reme.Name = "Re me"
 Reme.Parent = GameuiMenu
@@ -1403,7 +1646,7 @@ Xclosedestroy.Text = "X"
 Xclosedestroy.TextColor3 = Color3.fromRGB(170, 0, 0)
 Xclosedestroy.TextSize = 20.000
 
-UICorner_64.Parent = Xclosedestroy
+UICorner_78.Parent = Xclosedestroy
 
 ChangelogMenuHome.Name = "ChangelogMenuHome"
 ChangelogMenuHome.Parent = Frame1
@@ -1467,7 +1710,7 @@ upd3.TextSize = 16.000
 
 -- Scripts:
 
-local function BLGZP_fake_script() -- Frame1.LocalScript 
+local function HEGDLI_fake_script() -- Frame1.LocalScript 
 	local script = Instance.new('LocalScript', Frame1)
 
 	local frame = script.Parent
@@ -1494,8 +1737,8 @@ local function BLGZP_fake_script() -- Frame1.LocalScript
 	
 	frame.PlayerName.Text = player.Name
 end
-coroutine.wrap(BLGZP_fake_script)()
-local function QSDMVZO_fake_script() -- ButtonCrashFPS.LocalScript 
+coroutine.wrap(HEGDLI_fake_script)()
+local function AIBX_fake_script() -- ButtonCrashFPS.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCrashFPS)
 
 	ButtonCrashFPS.MouseButton1Down:Connect(function()
@@ -1538,8 +1781,8 @@ local function QSDMVZO_fake_script() -- ButtonCrashFPS.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QSDMVZO_fake_script)()
-local function WMCWZN_fake_script() -- ButtonServerHop.LocalScript 
+coroutine.wrap(AIBX_fake_script)()
+local function ZUZV_fake_script() -- ButtonServerHop.LocalScript 
 	local script = Instance.new('LocalScript', ButtonServerHop)
 
 	ButtonServerHop.MouseButton1Down:Connect(function()
@@ -1568,8 +1811,8 @@ local function WMCWZN_fake_script() -- ButtonServerHop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WMCWZN_fake_script)()
-local function IZUVK_fake_script() -- ButtonRejoin.LocalScript 
+coroutine.wrap(ZUZV_fake_script)()
+local function HAWUODR_fake_script() -- ButtonRejoin.LocalScript 
 	local script = Instance.new('LocalScript', ButtonRejoin)
 
 	ButtonRejoin.MouseButton1Down:Connect(function()
@@ -1582,8 +1825,8 @@ local function IZUVK_fake_script() -- ButtonRejoin.LocalScript
 		ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
 	end)
 end
-coroutine.wrap(IZUVK_fake_script)()
-local function MOMCG_fake_script() -- ButtonCursorTrue.LocalScript 
+coroutine.wrap(HAWUODR_fake_script)()
+local function NHDLV_fake_script() -- ButtonCursorTrue.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCursorTrue)
 
 	ButtonCursorTrue.MouseButton1Down:Connect(function()
@@ -1591,8 +1834,8 @@ local function MOMCG_fake_script() -- ButtonCursorTrue.LocalScript
 		UserInputService.MouseIconEnabled = true
 	end)
 end
-coroutine.wrap(MOMCG_fake_script)()
-local function VYGPJ_fake_script() -- ButtonCursorfalse.LocalScript 
+coroutine.wrap(NHDLV_fake_script)()
+local function JUBGYBH_fake_script() -- ButtonCursorfalse.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCursorfalse)
 
 	ButtonCursorfalse.MouseButton1Down:Connect(function()
@@ -1600,8 +1843,8 @@ local function VYGPJ_fake_script() -- ButtonCursorfalse.LocalScript
 		UserInputService.MouseIconEnabled = false
 	end)
 end
-coroutine.wrap(VYGPJ_fake_script)()
-local function MBLPZKM_fake_script() -- Cute.LocalScript 
+coroutine.wrap(JUBGYBH_fake_script)()
+local function NRLO_fake_script() -- Cute.LocalScript 
 	local script = Instance.new('LocalScript', Cute)
 
 	local frame = script.Parent.Parent.Cutefav
@@ -1664,8 +1907,8 @@ local function MBLPZKM_fake_script() -- Cute.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(MBLPZKM_fake_script)()
-local function RZNDVM_fake_script() -- Gameui.LocalScript 
+coroutine.wrap(NRLO_fake_script)()
+local function HCGV_fake_script() -- Gameui.LocalScript 
 	local script = Instance.new('LocalScript', Gameui)
 
 	local frameG = script.Parent.Parent.GameuiMenu
@@ -1728,8 +1971,8 @@ local function RZNDVM_fake_script() -- Gameui.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(RZNDVM_fake_script)()
-local function DOFIGN_fake_script() -- Universal.LocalScript 
+coroutine.wrap(HCGV_fake_script)()
+local function TXYLV_fake_script() -- Universal.LocalScript 
 	local script = Instance.new('LocalScript', Universal)
 
 	local frameU = script.Parent.Parent.UniversalMenu
@@ -1792,8 +2035,8 @@ local function DOFIGN_fake_script() -- Universal.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(DOFIGN_fake_script)()
-local function JIRNUOA_fake_script() -- Setting.LocalScript 
+coroutine.wrap(TXYLV_fake_script)()
+local function OCTPJP_fake_script() -- Setting.LocalScript 
 	local script = Instance.new('LocalScript', Setting)
 
 	local frameG = script.Parent.Parent.SettingMenu
@@ -1856,8 +2099,8 @@ local function JIRNUOA_fake_script() -- Setting.LocalScript
 		frameG.Visible = false
 	end)
 end
-coroutine.wrap(JIRNUOA_fake_script)()
-local function YOHKBV_fake_script() -- Home.LocalScript 
+coroutine.wrap(OCTPJP_fake_script)()
+local function CMKA_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	local frame = script.Parent.Parent.Cutefav
@@ -1920,8 +2163,8 @@ local function YOHKBV_fake_script() -- Home.LocalScript
 		frameG.Visible = true
 	end)
 end
-coroutine.wrap(YOHKBV_fake_script)()
-local function GTRLC_fake_script() -- ButtonTpTool.LocalScript 
+coroutine.wrap(CMKA_fake_script)()
+local function ZFLMLK_fake_script() -- ButtonTpTool.LocalScript 
 	local script = Instance.new('LocalScript', ButtonTpTool)
 
 	ButtonTpTool.MouseButton1Down:Connect(function()
@@ -1938,8 +2181,8 @@ local function GTRLC_fake_script() -- ButtonTpTool.LocalScript
 	
 	end)
 end
-coroutine.wrap(GTRLC_fake_script)()
-local function QBXU_fake_script() -- ButtonView.LocalScript 
+coroutine.wrap(ZFLMLK_fake_script)()
+local function YWBNK_fake_script() -- ButtonView.LocalScript 
 	local script = Instance.new('LocalScript', ButtonView)
 
 	plrNum = 1
@@ -1959,8 +2202,8 @@ local function QBXU_fake_script() -- ButtonView.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QBXU_fake_script)()
-local function BEAG_fake_script() -- ButtonBackView.LocalScript 
+coroutine.wrap(YWBNK_fake_script)()
+local function XQDHEK_fake_script() -- ButtonBackView.LocalScript 
 	local script = Instance.new('LocalScript', ButtonBackView)
 
 	plrNum = 1
@@ -1980,16 +2223,16 @@ local function BEAG_fake_script() -- ButtonBackView.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BEAG_fake_script)()
-local function ZGPC_fake_script() -- ButtonCrashPlr.LocalScript 
+coroutine.wrap(XQDHEK_fake_script)()
+local function LGSQFS_fake_script() -- ButtonCrashPlr.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCrashPlr)
 
 	ButtonCrashPlr.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, -450, 1)
 	end)
 end
-coroutine.wrap(ZGPC_fake_script)()
-local function TVGXH_fake_script() -- ButtonCtrlTp.LocalScript 
+coroutine.wrap(LGSQFS_fake_script)()
+local function ATQU_fake_script() -- ButtonCtrlTp.LocalScript 
 	local script = Instance.new('LocalScript', ButtonCtrlTp)
 
 	ButtonCtrlTp.MouseButton1Down:Connect(function()
@@ -2018,8 +2261,8 @@ local function TVGXH_fake_script() -- ButtonCtrlTp.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TVGXH_fake_script)()
-local function KYDP_fake_script() -- ButtonFly.LocalScript 
+coroutine.wrap(ATQU_fake_script)()
+local function LSEKNUD_fake_script() -- ButtonFly.LocalScript 
 	local script = Instance.new('LocalScript', ButtonFly)
 
 	speeds = 1
@@ -2205,136 +2448,212 @@ local function KYDP_fake_script() -- ButtonFly.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KYDP_fake_script)()
-local function BOLH_fake_script() -- ButtonReWalk.LocalScript 
+coroutine.wrap(LSEKNUD_fake_script)()
+local function OHZZ_fake_script() -- ButtonReWalk.LocalScript 
 	local script = Instance.new('LocalScript', ButtonReWalk)
 
 	ButtonReWalk.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 	end)
 end
-coroutine.wrap(BOLH_fake_script)()
-local function XCXTM_fake_script() -- ButtonWalk25.LocalScript 
+coroutine.wrap(OHZZ_fake_script)()
+local function NMUSQ_fake_script() -- ButtonWalk25.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk25)
 
 	ButtonWalk25.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
 	end)
 end
-coroutine.wrap(XCXTM_fake_script)()
-local function HADJHKR_fake_script() -- ButtonWalk50.LocalScript 
+coroutine.wrap(NMUSQ_fake_script)()
+local function RYMGJB_fake_script() -- ButtonWalk50.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk50)
 
 	ButtonWalk50.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 	end)
 end
-coroutine.wrap(HADJHKR_fake_script)()
-local function PCBGYN_fake_script() -- ButtonWalk100.LocalScript 
+coroutine.wrap(RYMGJB_fake_script)()
+local function YJKAU_fake_script() -- ButtonWalk100.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk100)
 
 	ButtonWalk100.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 	end)
 end
-coroutine.wrap(PCBGYN_fake_script)()
-local function JPLSC_fake_script() -- ButtonWalk150.LocalScript 
+coroutine.wrap(YJKAU_fake_script)()
+local function YYVONV_fake_script() -- ButtonWalk150.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk150)
 
 	ButtonWalk150.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
 	end)
 end
-coroutine.wrap(JPLSC_fake_script)()
-local function KLCZEZ_fake_script() -- ButtonReJump.LocalScript 
+coroutine.wrap(YYVONV_fake_script)()
+local function IJOCY_fake_script() -- ButtonReJump.LocalScript 
 	local script = Instance.new('LocalScript', ButtonReJump)
 
 	ButtonReJump.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 	end)
 end
-coroutine.wrap(KLCZEZ_fake_script)()
-local function QUMMO_fake_script() -- ButtonJump100.LocalScript 
+coroutine.wrap(IJOCY_fake_script)()
+local function SHGALB_fake_script() -- ButtonJump100.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump100)
 
 	ButtonJump100.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
 	end)
 end
-coroutine.wrap(QUMMO_fake_script)()
-local function JYFEOM_fake_script() -- ButtonJump150.LocalScript 
+coroutine.wrap(SHGALB_fake_script)()
+local function SXXSREU_fake_script() -- ButtonJump150.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump150)
 
 	ButtonJump150.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
 	end)
 end
-coroutine.wrap(JYFEOM_fake_script)()
-local function QZMS_fake_script() -- ButtonJump200.LocalScript 
+coroutine.wrap(SXXSREU_fake_script)()
+local function WPUJI_fake_script() -- ButtonJump200.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump200)
 
 	ButtonJump200.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
 	end)
 end
-coroutine.wrap(QZMS_fake_script)()
-local function HUOENOA_fake_script() -- ButtonJump250.LocalScript 
+coroutine.wrap(WPUJI_fake_script)()
+local function SRUH_fake_script() -- ButtonJump250.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump250)
 
 	ButtonJump250.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 250
 	end)
 end
-coroutine.wrap(HUOENOA_fake_script)()
-local function OPFP_fake_script() -- ButtonRespawn.LocalScript 
+coroutine.wrap(SRUH_fake_script)()
+local function XJJR_fake_script() -- ButtonRespawn.LocalScript 
 	local script = Instance.new('LocalScript', ButtonRespawn)
 
 	ButtonRespawn.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Health = 0
 	end)
 end
-coroutine.wrap(OPFP_fake_script)()
-local function VAFZVA_fake_script() -- ButtonWalk200.LocalScript 
+coroutine.wrap(XJJR_fake_script)()
+local function GEDNCJ_fake_script() -- ButtonWalk200.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk200)
 
 	ButtonWalk200.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
 	end)
 end
-coroutine.wrap(VAFZVA_fake_script)()
-local function NKVII_fake_script() -- ButtonWalk300.LocalScript 
+coroutine.wrap(GEDNCJ_fake_script)()
+local function XDYEQ_fake_script() -- ButtonWalk300.LocalScript 
 	local script = Instance.new('LocalScript', ButtonWalk300)
 
 	ButtonWalk300.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300
 	end)
 end
-coroutine.wrap(NKVII_fake_script)()
-local function NJIAE_fake_script() -- ButtonJump300.LocalScript 
+coroutine.wrap(XDYEQ_fake_script)()
+local function BMZPYI_fake_script() -- ButtonJump300.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump300)
 
 	ButtonJump300.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 300
 	end)
 end
-coroutine.wrap(NJIAE_fake_script)()
-local function MDBYION_fake_script() -- ButtonJump500.LocalScript 
+coroutine.wrap(BMZPYI_fake_script)()
+local function ASAI_fake_script() -- ButtonJump500.LocalScript 
 	local script = Instance.new('LocalScript', ButtonJump500)
 
 	ButtonJump500.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
 	end)
 end
-coroutine.wrap(MDBYION_fake_script)()
-local function ULSJXIV_fake_script() -- ButtonKickPlr.LocalScript 
+coroutine.wrap(ASAI_fake_script)()
+local function ZKDFED_fake_script() -- ButtonVoidPlr.LocalScript 
+	local script = Instance.new('LocalScript', ButtonVoidPlr)
+
+	ButtonVoidPlr.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, -500, 1)
+	end)
+end
+coroutine.wrap(ZKDFED_fake_script)()
+local function BRNE_fake_script() -- ButtonKickPlr.LocalScript 
 	local script = Instance.new('LocalScript', ButtonKickPlr)
 
 	ButtonKickPlr.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer:Kick("You've Quit the Game!")
 	end)
 end
-coroutine.wrap(ULSJXIV_fake_script)()
-local function FRVRZVM_fake_script() -- Xclosedestroy.LocalScript 
+coroutine.wrap(BRNE_fake_script)()
+local function VWDCO_fake_script() -- ButtonNullzone.LocalScript 
+	local script = Instance.new('LocalScript', ButtonNullzone)
+
+	ButtonNullzone.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(999999999999999, 99999999999999999999999999999999999, 1)
+	end)
+end
+coroutine.wrap(VWDCO_fake_script)()
+local function MLYR_fake_script() -- ButtonReFov.LocalScript 
+	local script = Instance.new('LocalScript', ButtonReFov)
+
+	ButtonReFov.MouseButton1Down:Connect(function()
+		local FovNumber = 70--Enter your FOV number here
+		local Camera = workspace.CurrentCamera
+		Camera.FieldOfView = FovNumber
+	end)
+end
+coroutine.wrap(MLYR_fake_script)()
+local function XBRDLA_fake_script() -- ButtonFov80.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFov80)
+
+	ButtonFov80.MouseButton1Down:Connect(function()
+		local FovNumber = 80 --Enter your FOV number here
+		local Camera = workspace.CurrentCamera
+		Camera.FieldOfView = FovNumber
+	end)
+end
+coroutine.wrap(XBRDLA_fake_script)()
+local function RGAXXMT_fake_script() -- ButtonFov90.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFov90)
+
+	ButtonFov90.MouseButton1Down:Connect(function()
+		local FovNumber = 90--Enter your FOV number here
+		local Camera = workspace.CurrentCamera
+		Camera.FieldOfView = FovNumber
+	end)
+end
+coroutine.wrap(RGAXXMT_fake_script)()
+local function UJHNABQ_fake_script() -- ButtonFov100.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFov100)
+
+	ButtonFov100.MouseButton1Down:Connect(function()
+		local FovNumber = 100 --Enter your FOV number here
+		local Camera = workspace.CurrentCamera
+		Camera.FieldOfView = FovNumber
+	end)
+end
+coroutine.wrap(UJHNABQ_fake_script)()
+local function JNLZY_fake_script() -- ButtonFov110.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFov110)
+
+	ButtonFov110.MouseButton1Down:Connect(function()
+		local FovNumber = 110--Enter your FOV number here
+		local Camera = workspace.CurrentCamera
+		Camera.FieldOfView = FovNumber
+	end)
+end
+coroutine.wrap(JNLZY_fake_script)()
+local function UQRFRHL_fake_script() -- ButtonFov120.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFov120)
+
+	ButtonFov120.MouseButton1Down:Connect(function()
+		local FovNumber = 120 --Enter your FOV number here
+		local Camera = workspace.CurrentCamera
+		Camera.FieldOfView = FovNumber
+	end)
+end
+coroutine.wrap(UQRFRHL_fake_script)()
+local function FNLOA_fake_script() -- Xclosedestroy.LocalScript 
 	local script = Instance.new('LocalScript', Xclosedestroy)
 
 	local XCloseDestroy = script.Parent
@@ -2343,8 +2662,8 @@ local function FRVRZVM_fake_script() -- Xclosedestroy.LocalScript
 	    script.Parent.Parent.Parent.Parent:Destroy() --this references the ScreenGui that everything is connected to, therefore destroying everything (I think)
 	end)
 end
-coroutine.wrap(FRVRZVM_fake_script)()
-local function ANPWKH_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+coroutine.wrap(FNLOA_fake_script)()
+local function QNMJNF_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
 
 	Frame = script.Parent.Frame1
@@ -2352,8 +2671,8 @@ local function ANPWKH_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript
 	Frame.Active = true
 	Frame.Selectable = true
 end
-coroutine.wrap(ANPWKH_fake_script)()
-local function NSJCSN_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+coroutine.wrap(QNMJNF_fake_script)()
+local function GHEQR_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
 
 	local userinputService = game:GetService("UserInputService")
@@ -2367,8 +2686,8 @@ local function NSJCSN_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NSJCSN_fake_script)()
-local function QKOAP_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+coroutine.wrap(GHEQR_fake_script)()
+local function GMKQWV_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -2383,4 +2702,4 @@ local function QKOAP_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript
 		Text = "Completed, Welcome to Eralipa ZX v0.3f",
 	})
 end
-coroutine.wrap(QKOAP_fake_script)()
+coroutine.wrap(GMKQWV_fake_script)()
