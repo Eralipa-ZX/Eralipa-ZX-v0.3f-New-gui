@@ -1,0 +1,2386 @@
+local ScreenGuiEralipaZXv03f = Instance.new("ScreenGui")
+local Frame1 = Instance.new("Frame")
+local Eralipatextmenu = Instance.new("TextLabel")
+local Tab = Instance.new("Frame")
+local HomeFrame1ui = Instance.new("Frame")
+local User = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local PremiumUser = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Welcome = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local SettingMenu = Instance.new("Frame")
+local ScrollingFrameSetting = Instance.new("ScrollingFrame")
+local Ui = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local SettingUis = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local Controls = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local Closegui = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Closegui_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Testgui = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local ButtonDele = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local CrashFPS = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local ButtonCrashFPS = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ServerHop = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local ButtonServerHop = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Rejoin = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local ButtonRejoin = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Cursor = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local ButtonCursorTrue = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local ButtonCursorfalse = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local PlayerName = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local PlayerImage = Instance.new("ImageLabel")
+local UICorner_18 = Instance.new("UICorner")
+local Cutefav = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Cute = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Scripts = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Gameui = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Universal = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Setting = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local UniversalMenu = Instance.new("Frame")
+local ScrollingFrameUniversal = Instance.new("ScrollingFrame")
+local TeleportTool = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local ButtonTpTool = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Tools = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local World = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local ViewPlayer = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local ButtonView = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local ButtonBackView = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Players = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local CrashPlayer = Instance.new("TextLabel")
+local UICorner_30 = Instance.new("UICorner")
+local ButtonCrashPlr = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local CtrlTeleport = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local ButtonCtrlTp = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Fly = Instance.new("TextLabel")
+local UICorner_34 = Instance.new("UICorner")
+local ButtonFly = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local ReWalkSpeed = Instance.new("TextLabel")
+local UICorner_36 = Instance.new("UICorner")
+local ButtonReWalk = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local WalkSpeed2550 = Instance.new("TextLabel")
+local UICorner_38 = Instance.new("UICorner")
+local ButtonWalk25 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local ButtonWalk50 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local WalkSpeed100150 = Instance.new("TextLabel")
+local UICorner_41 = Instance.new("UICorner")
+local ButtonWalk100 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local ButtonWalk150 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local ReJumpPower = Instance.new("TextLabel")
+local UICorner_44 = Instance.new("UICorner")
+local ButtonReJump = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local JumpPower100150 = Instance.new("TextLabel")
+local UICorner_46 = Instance.new("UICorner")
+local ButtonJump100 = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local ButtonJump150 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local JumpPower200250 = Instance.new("TextLabel")
+local UICorner_49 = Instance.new("UICorner")
+local ButtonJump200 = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local ButtonJump250 = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local Respawn = Instance.new("TextLabel")
+local UICorner_52 = Instance.new("UICorner")
+local ButtonRespawn = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local WalkSpeed200300 = Instance.new("TextLabel")
+local UICorner_54 = Instance.new("UICorner")
+local ButtonWalk200 = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local ButtonWalk300 = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local JumpPower300500 = Instance.new("TextLabel")
+local UICorner_57 = Instance.new("UICorner")
+local ButtonJump300 = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local ButtonJump500 = Instance.new("TextButton")
+local UICorner_59 = Instance.new("UICorner")
+local KickPlayer = Instance.new("TextLabel")
+local UICorner_60 = Instance.new("UICorner")
+local ButtonKickPlr = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local GameuiMenu = Instance.new("Frame")
+local infsmi = Instance.new("TextLabel")
+local UICorner_62 = Instance.new("UICorner")
+local PriLif = Instance.new("TextLabel")
+local UICorner_63 = Instance.new("UICorner")
+local Reme = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local Remetext = Instance.new("TextLabel")
+local Xclosedestroy = Instance.new("TextButton")
+local UICorner_64 = Instance.new("UICorner")
+local ChangelogMenuHome = Instance.new("Frame")
+local Changelog = Instance.new("TextLabel")
+local upd1 = Instance.new("TextLabel")
+local upd2 = Instance.new("TextLabel")
+local upd3 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGuiEralipaZXv03f.Name = "ScreenGui Eralipa ZX v0.3f"
+ScreenGuiEralipaZXv03f.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGuiEralipaZXv03f.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame1.Name = "Frame1"
+Frame1.Parent = ScreenGuiEralipaZXv03f
+Frame1.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.35384509, 18, 0.206510827, 104)
+Frame1.Size = UDim2.new(0, 491, 0, 26)
+
+Eralipatextmenu.Name = "Eralipatextmenu"
+Eralipatextmenu.Parent = Frame1
+Eralipatextmenu.BackgroundColor3 = Color3.fromRGB(12, 87, 179)
+Eralipatextmenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Eralipatextmenu.BorderSizePixel = 0
+Eralipatextmenu.Position = UDim2.new(-0.202787384, 0, -0.0370506868, 0)
+Eralipatextmenu.Size = UDim2.new(0, 127, 0, 27)
+Eralipatextmenu.Font = Enum.Font.Roboto
+Eralipatextmenu.Text = "Eralipa ZX - v0.3f"
+Eralipatextmenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+Eralipatextmenu.TextSize = 16.000
+
+Tab.Name = "Tab"
+Tab.Parent = Frame1
+Tab.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Tab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tab.BorderSizePixel = 0
+Tab.Position = UDim2.new(-0.202787384, 0, 0.994734526, 0)
+Tab.Size = UDim2.new(0, 127, 0, 339)
+
+HomeFrame1ui.Name = "HomeFrame1ui"
+HomeFrame1ui.Parent = Frame1
+HomeFrame1ui.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+HomeFrame1ui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeFrame1ui.BorderSizePixel = 0
+HomeFrame1ui.Position = UDim2.new(0.0558684245, 0, 1, 0)
+HomeFrame1ui.Size = UDim2.new(0, 464, 0, 339)
+
+User.Name = "User"
+User.Parent = Frame1
+User.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+User.BorderColor3 = Color3.fromRGB(0, 0, 0)
+User.BorderSizePixel = 0
+User.Position = UDim2.new(0.729124248, 0, 1.38461542, 0)
+User.Size = UDim2.new(0, 121, 0, 39)
+User.Font = Enum.Font.Roboto
+User.Text = "User - Free"
+User.TextColor3 = Color3.fromRGB(255, 255, 255)
+User.TextSize = 25.000
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = User
+
+PremiumUser.Name = "PremiumUser"
+PremiumUser.Parent = Frame1
+PremiumUser.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+PremiumUser.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PremiumUser.BorderSizePixel = 0
+PremiumUser.Position = UDim2.new(0.674134433, 0, 3.23076916, 0)
+PremiumUser.Size = UDim2.new(0, 148, 0, 48)
+PremiumUser.Font = Enum.Font.Roboto
+PremiumUser.Text = "Premium - Not"
+PremiumUser.TextColor3 = Color3.fromRGB(255, 255, 255)
+PremiumUser.TextSize = 25.000
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = PremiumUser
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 255, 179)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(128, 16, 255))}
+UIGradient.Parent = PremiumUser
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Frame1
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Welcome.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.0712830946, 0, 3.23076916, 0)
+Welcome.Size = UDim2.new(0, 289, 0, 48)
+Welcome.Font = Enum.Font.Roboto
+Welcome.Text = "Welcome, Eralipa ZX!"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextSize = 25.000
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = Welcome
+
+SettingMenu.Name = "SettingMenu"
+SettingMenu.Parent = Frame1
+SettingMenu.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+SettingMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SettingMenu.BorderSizePixel = 0
+SettingMenu.Position = UDim2.new(0.0558684245, 0, 1, 0)
+SettingMenu.Size = UDim2.new(0, 463, 0, 339)
+SettingMenu.Visible = false
+
+ScrollingFrameSetting.Name = "ScrollingFrameSetting"
+ScrollingFrameSetting.Parent = SettingMenu
+ScrollingFrameSetting.Active = true
+ScrollingFrameSetting.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ScrollingFrameSetting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrameSetting.BorderSizePixel = 0
+ScrollingFrameSetting.Size = UDim2.new(0, 464, 0, 339)
+
+Ui.Name = "Ui"
+Ui.Parent = ScrollingFrameSetting
+Ui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ui.BackgroundTransparency = 1.000
+Ui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ui.BorderSizePixel = 0
+Ui.Size = UDim2.new(0, 200, 0, 22)
+Ui.Font = Enum.Font.SourceSans
+Ui.Text = "Ui"
+Ui.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ui.TextSize = 28.000
+Ui.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame.Parent = Ui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 1, 0)
+Frame.Size = UDim2.new(0, 125, 0, 2)
+
+SettingUis.Name = "SettingUis"
+SettingUis.Parent = ScrollingFrameSetting
+SettingUis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SettingUis.BackgroundTransparency = 1.000
+SettingUis.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SettingUis.BorderSizePixel = 0
+SettingUis.Position = UDim2.new(-0.00215517241, 0, 0.144542769, 0)
+SettingUis.Size = UDim2.new(0, 200, 0, 22)
+SettingUis.Font = Enum.Font.SourceSans
+SettingUis.Text = "Setting"
+SettingUis.TextColor3 = Color3.fromRGB(255, 255, 255)
+SettingUis.TextSize = 28.000
+SettingUis.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_2.Parent = SettingUis
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 1, 0)
+Frame_2.Size = UDim2.new(0, 125, 0, 2)
+
+Controls.Name = "Controls"
+Controls.Parent = ScrollingFrameSetting
+Controls.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Controls.BackgroundTransparency = 1.000
+Controls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Controls.BorderSizePixel = 0
+Controls.Position = UDim2.new(0, 0, 0.365781724, 0)
+Controls.Size = UDim2.new(0, 200, 0, 22)
+Controls.Font = Enum.Font.SourceSans
+Controls.Text = "Control"
+Controls.TextColor3 = Color3.fromRGB(255, 255, 255)
+Controls.TextSize = 28.000
+Controls.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_3.Parent = Controls
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 125, 0, 2)
+
+Closegui.Name = "Closegui"
+Closegui.Parent = ScrollingFrameSetting
+Closegui.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Closegui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closegui.BorderSizePixel = 0
+Closegui.Position = UDim2.new(-0.00215517241, 0, 0.0471976399, 0)
+Closegui.Size = UDim2.new(0, 436, 0, 26)
+Closegui.Font = Enum.Font.Roboto
+Closegui.Text = "Close gui  is"
+Closegui.TextColor3 = Color3.fromRGB(255, 255, 255)
+Closegui.TextSize = 18.000
+Closegui.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = Closegui
+
+Closegui_2.Name = "Closegui"
+Closegui_2.Parent = Closegui
+Closegui_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Closegui_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Closegui_2.BorderSizePixel = 0
+Closegui_2.Position = UDim2.new(0.698551834, 0, -0.0297252946, 0)
+Closegui_2.Size = UDim2.new(0, 125, 0, 26)
+Closegui_2.Font = Enum.Font.Roboto
+Closegui_2.Text = "LeftAlt"
+Closegui_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Closegui_2.TextSize = 18.000
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = Closegui_2
+
+Testgui.Name = "Testgui"
+Testgui.Parent = ScrollingFrameSetting
+Testgui.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Testgui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Testgui.BorderSizePixel = 0
+Testgui.Position = UDim2.new(-0.00215517241, 0, 0.0914454311, 0)
+Testgui.Size = UDim2.new(0, 436, 0, 26)
+Testgui.Font = Enum.Font.Roboto
+Testgui.Text = "Test gui"
+Testgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+Testgui.TextSize = 18.000
+Testgui.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = Testgui
+
+ButtonDele.Name = "ButtonDele"
+ButtonDele.Parent = Testgui
+ButtonDele.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonDele.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonDele.BorderSizePixel = 0
+ButtonDele.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonDele.Size = UDim2.new(0, 124, 0, 26)
+ButtonDele.Font = Enum.Font.Roboto
+ButtonDele.Text = "Click"
+ButtonDele.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonDele.TextSize = 18.000
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = ButtonDele
+
+CrashFPS.Name = "CrashFPS"
+CrashFPS.Parent = ScrollingFrameSetting
+CrashFPS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+CrashFPS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CrashFPS.BorderSizePixel = 0
+CrashFPS.Position = UDim2.new(-0.00215517241, 0, 0.182890862, 0)
+CrashFPS.Size = UDim2.new(0, 436, 0, 26)
+CrashFPS.Font = Enum.Font.Roboto
+CrashFPS.Text = "Crash FPS"
+CrashFPS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CrashFPS.TextSize = 18.000
+CrashFPS.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = CrashFPS
+
+ButtonCrashFPS.Name = "ButtonCrashFPS"
+ButtonCrashFPS.Parent = CrashFPS
+ButtonCrashFPS.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonCrashFPS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonCrashFPS.BorderSizePixel = 0
+ButtonCrashFPS.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonCrashFPS.Size = UDim2.new(0, 124, 0, 26)
+ButtonCrashFPS.Font = Enum.Font.Roboto
+ButtonCrashFPS.Text = "Click"
+ButtonCrashFPS.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonCrashFPS.TextSize = 18.000
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = ButtonCrashFPS
+
+ServerHop.Name = "ServerHop"
+ServerHop.Parent = ScrollingFrameSetting
+ServerHop.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ServerHop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ServerHop.BorderSizePixel = 0
+ServerHop.Position = UDim2.new(-0.00200000009, 0, 0.236000001, -6)
+ServerHop.Size = UDim2.new(0, 436, 0, 26)
+ServerHop.Font = Enum.Font.Roboto
+ServerHop.Text = "Server Hop"
+ServerHop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ServerHop.TextSize = 18.000
+ServerHop.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = ServerHop
+
+ButtonServerHop.Name = "ButtonServerHop"
+ButtonServerHop.Parent = ServerHop
+ButtonServerHop.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonServerHop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonServerHop.BorderSizePixel = 0
+ButtonServerHop.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonServerHop.Size = UDim2.new(0, 124, 0, 26)
+ButtonServerHop.Font = Enum.Font.Roboto
+ButtonServerHop.Text = "Click"
+ButtonServerHop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonServerHop.TextSize = 18.000
+
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = ButtonServerHop
+
+Rejoin.Name = "Rejoin"
+Rejoin.Parent = ScrollingFrameSetting
+Rejoin.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Rejoin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rejoin.BorderSizePixel = 0
+Rejoin.Position = UDim2.new(-0.00200000009, 0, 0.280000001, -6)
+Rejoin.Size = UDim2.new(0, 436, 0, 26)
+Rejoin.Font = Enum.Font.Roboto
+Rejoin.Text = "Rejoin"
+Rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rejoin.TextSize = 18.000
+Rejoin.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Rejoin
+
+ButtonRejoin.Name = "ButtonRejoin"
+ButtonRejoin.Parent = Rejoin
+ButtonRejoin.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonRejoin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonRejoin.BorderSizePixel = 0
+ButtonRejoin.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonRejoin.Size = UDim2.new(0, 124, 0, 26)
+ButtonRejoin.Font = Enum.Font.Roboto
+ButtonRejoin.Text = "Click"
+ButtonRejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonRejoin.TextSize = 18.000
+
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = ButtonRejoin
+
+Cursor.Name = "Cursor"
+Cursor.Parent = ScrollingFrameSetting
+Cursor.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Cursor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cursor.BorderSizePixel = 0
+Cursor.Position = UDim2.new(-0.00199995376, 0, 0.415457308, -6)
+Cursor.Size = UDim2.new(0, 436, 0, 26)
+Cursor.Font = Enum.Font.Roboto
+Cursor.Text = "Cursor"
+Cursor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cursor.TextSize = 18.000
+Cursor.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Cursor
+
+ButtonCursorTrue.Name = "ButtonCursorTrue"
+ButtonCursorTrue.Parent = Cursor
+ButtonCursorTrue.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+ButtonCursorTrue.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonCursorTrue.BorderSizePixel = 0
+ButtonCursorTrue.Position = UDim2.new(0.840753675, 0, -0.0297241211, 0)
+ButtonCursorTrue.Size = UDim2.new(0, 62, 0, 26)
+ButtonCursorTrue.Font = Enum.Font.Roboto
+ButtonCursorTrue.Text = ""
+ButtonCursorTrue.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonCursorTrue.TextSize = 18.000
+
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = ButtonCursorTrue
+
+ButtonCursorfalse.Name = "ButtonCursorfalse"
+ButtonCursorfalse.Parent = Cursor
+ButtonCursorfalse.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+ButtonCursorfalse.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonCursorfalse.BorderSizePixel = 0
+ButtonCursorfalse.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonCursorfalse.Size = UDim2.new(0, 62, 0, 26)
+ButtonCursorfalse.Font = Enum.Font.Roboto
+ButtonCursorfalse.Text = ""
+ButtonCursorfalse.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonCursorfalse.TextSize = 18.000
+
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = ButtonCursorfalse
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = Frame1
+PlayerName.BackgroundColor3 = Color3.fromRGB(85, 170, 0)
+PlayerName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerName.BorderSizePixel = 0
+PlayerName.Position = UDim2.new(0.179226071, 0, 1.38461542, 0)
+PlayerName.Size = UDim2.new(0, 236, 0, 39)
+PlayerName.Font = Enum.Font.Kalam
+PlayerName.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.TextSize = 26.000
+
+UICorner_17.Parent = PlayerName
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = Frame1
+PlayerImage.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+PlayerImage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerImage.BorderSizePixel = 0
+PlayerImage.Position = UDim2.new(0.0712830946, 0, 1.38461542, 0)
+PlayerImage.Size = UDim2.new(0, 53, 0, 48)
+PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = PlayerImage
+
+Cutefav.Name = "Cutefav"
+Cutefav.Parent = Frame1
+Cutefav.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Cutefav.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cutefav.BorderSizePixel = 0
+Cutefav.Position = UDim2.new(0.0558684245, 0, 1, 0)
+Cutefav.Size = UDim2.new(0, 463, 0, 339)
+Cutefav.Visible = false
+
+ImageLabel.Parent = Cutefav
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 463, 0, 338)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=14440726484"
+
+Cute.Name = "Cute"
+Cute.Parent = Frame1
+Cute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cute.BorderSizePixel = 0
+Cute.Position = UDim2.new(-0.203665987, 0, 12.873045, 0)
+Cute.Size = UDim2.new(0, 127, 0, 30)
+Cute.Font = Enum.Font.Kalam
+Cute.Text = "Cute"
+Cute.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cute.TextSize = 32.000
+
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = Cute
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 70, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 115))}
+UIGradient_2.Parent = Cute
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Frame1
+Scripts.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(-0.203665987, 0, 4.41615629, 0)
+Scripts.Size = UDim2.new(0, 127, 0, 30)
+Scripts.Font = Enum.Font.Roboto
+Scripts.Text = "^ Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextSize = 14.000
+Scripts.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_20.CornerRadius = UDim.new(0, 4)
+UICorner_20.Parent = Scripts
+
+Gameui.Name = "Game ui"
+Gameui.Parent = Frame1
+Gameui.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Gameui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gameui.BorderSizePixel = 0
+Gameui.Position = UDim2.new(-0.203665987, 0, 2.11799383, 0)
+Gameui.Size = UDim2.new(0, 127, 0, 30)
+Gameui.Font = Enum.Font.Roboto
+Gameui.Text = "^ Game ui"
+Gameui.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gameui.TextSize = 14.000
+Gameui.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_21.CornerRadius = UDim.new(0, 4)
+UICorner_21.Parent = Gameui
+
+Universal.Name = "Universal"
+Universal.Parent = Frame1
+Universal.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Universal.BorderSizePixel = 0
+Universal.Position = UDim2.new(-0.203665987, 0, 3.26265073, 0)
+Universal.Size = UDim2.new(0, 127, 0, 30)
+Universal.Font = Enum.Font.Roboto
+Universal.Text = "^ Universal"
+Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Universal.TextSize = 14.000
+Universal.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = Universal
+
+Setting.Name = "Setting"
+Setting.Parent = Frame1
+Setting.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Setting.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Setting.BorderSizePixel = 0
+Setting.Position = UDim2.new(-0.203999996, 0, 5.68200016, -3)
+Setting.Size = UDim2.new(0, 127, 0, 30)
+Setting.Font = Enum.Font.Roboto
+Setting.Text = "^ Setting"
+Setting.TextColor3 = Color3.fromRGB(255, 255, 255)
+Setting.TextSize = 14.000
+Setting.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = Setting
+
+Home.Name = "Home"
+Home.Parent = Frame1
+Home.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(-0.203665987, 0, 0.973337054, 0)
+Home.Size = UDim2.new(0, 127, 0, 30)
+Home.Font = Enum.Font.Roboto
+Home.Text = "^ Home"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextSize = 14.000
+Home.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = Home
+
+UniversalMenu.Name = "UniversalMenu"
+UniversalMenu.Parent = Frame1
+UniversalMenu.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+UniversalMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UniversalMenu.BorderSizePixel = 0
+UniversalMenu.Position = UDim2.new(0.0558684245, 0, 1, 0)
+UniversalMenu.Size = UDim2.new(0, 463, 0, 339)
+UniversalMenu.Visible = false
+
+ScrollingFrameUniversal.Name = "ScrollingFrameUniversal"
+ScrollingFrameUniversal.Parent = UniversalMenu
+ScrollingFrameUniversal.Active = true
+ScrollingFrameUniversal.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ScrollingFrameUniversal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrameUniversal.BorderSizePixel = 0
+ScrollingFrameUniversal.Size = UDim2.new(0, 464, 0, 339)
+ScrollingFrameUniversal.CanvasPosition = Vector2.new(0, 280)
+ScrollingFrameUniversal.CanvasSize = UDim2.new(0, 0, 4, 0)
+
+TeleportTool.Name = "TeleportTool"
+TeleportTool.Parent = ScrollingFrameUniversal
+TeleportTool.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TeleportTool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportTool.BorderSizePixel = 0
+TeleportTool.Position = UDim2.new(0.000155218717, 0, -0.351032436, 500)
+TeleportTool.Size = UDim2.new(0, 436, 0, 26)
+TeleportTool.Font = Enum.Font.Roboto
+TeleportTool.Text = "Teleport Tool"
+TeleportTool.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportTool.TextSize = 18.000
+TeleportTool.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = TeleportTool
+
+ButtonTpTool.Name = "ButtonTpTool"
+ButtonTpTool.Parent = TeleportTool
+ButtonTpTool.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonTpTool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonTpTool.BorderSizePixel = 0
+ButtonTpTool.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonTpTool.Size = UDim2.new(0, 124, 0, 26)
+ButtonTpTool.Font = Enum.Font.Roboto
+ButtonTpTool.Text = "Click"
+ButtonTpTool.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonTpTool.TextSize = 18.000
+
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = ButtonTpTool
+
+Tools.Name = "Tools"
+Tools.Parent = ScrollingFrameUniversal
+Tools.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Tools.BackgroundTransparency = 1.000
+Tools.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tools.BorderSizePixel = 0
+Tools.Position = UDim2.new(0.000155218717, 0, -0.29555276, 400)
+Tools.Size = UDim2.new(0, 200, 0, 22)
+Tools.Font = Enum.Font.SourceSans
+Tools.Text = "Tools"
+Tools.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tools.TextSize = 28.000
+Tools.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_4.Parent = Tools
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 1, 0)
+Frame_4.Size = UDim2.new(0, 125, 0, 2)
+
+World.Name = "World"
+World.Parent = ScrollingFrameUniversal
+World.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+World.BackgroundTransparency = 1.000
+World.BorderColor3 = Color3.fromRGB(0, 0, 0)
+World.BorderSizePixel = 0
+World.Position = UDim2.new(0.000155218717, 0, -0.259870768, 400)
+World.Size = UDim2.new(0, 200, 0, 22)
+World.Font = Enum.Font.SourceSans
+World.Text = "Worlds"
+World.TextColor3 = Color3.fromRGB(255, 255, 255)
+World.TextSize = 28.000
+World.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_5.Parent = World
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 1, 0)
+Frame_5.Size = UDim2.new(0, 125, 0, 2)
+
+ViewPlayer.Name = "ViewPlayer"
+ViewPlayer.Parent = ScrollingFrameUniversal
+ViewPlayer.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ViewPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ViewPlayer.BorderSizePixel = 0
+ViewPlayer.Position = UDim2.new(0.000155218717, 0, -0.315634221, 500)
+ViewPlayer.Size = UDim2.new(0, 436, 0, 26)
+ViewPlayer.Font = Enum.Font.Roboto
+ViewPlayer.Text = "View Players"
+ViewPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+ViewPlayer.TextSize = 18.000
+ViewPlayer.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = ViewPlayer
+
+ButtonView.Name = "ButtonView"
+ButtonView.Parent = ViewPlayer
+ButtonView.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonView.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonView.BorderSizePixel = 0
+ButtonView.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonView.Size = UDim2.new(0, 124, 0, 26)
+ButtonView.Font = Enum.Font.Roboto
+ButtonView.Text = "View"
+ButtonView.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonView.TextSize = 18.000
+
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = ButtonView
+
+ButtonBackView.Name = "ButtonBackView"
+ButtonBackView.Parent = ViewPlayer
+ButtonBackView.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonBackView.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonBackView.BorderSizePixel = 0
+ButtonBackView.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonBackView.Size = UDim2.new(0, 124, 0, 26)
+ButtonBackView.Font = Enum.Font.Roboto
+ButtonBackView.Text = "Back View"
+ButtonBackView.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonBackView.TextSize = 18.000
+
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = ButtonBackView
+
+Players.Name = "Players"
+Players.Parent = ScrollingFrameUniversal
+Players.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Players.BackgroundTransparency = 1.000
+Players.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Players.BorderSizePixel = 0
+Players.Position = UDim2.new(0.000155218717, 0, -0.19696027, 400)
+Players.Size = UDim2.new(0, 200, 0, 22)
+Players.Font = Enum.Font.SourceSans
+Players.Text = "Players"
+Players.TextColor3 = Color3.fromRGB(255, 255, 255)
+Players.TextSize = 28.000
+Players.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_6.Parent = Players
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 1, 0)
+Frame_6.Size = UDim2.new(0, 125, 0, 2)
+
+CrashPlayer.Name = "CrashPlayer"
+CrashPlayer.Parent = ScrollingFrameUniversal
+CrashPlayer.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+CrashPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CrashPlayer.BorderSizePixel = 0
+CrashPlayer.Position = UDim2.new(0.000155218717, 0, -0.0206489675, 500)
+CrashPlayer.Size = UDim2.new(0, 436, 0, 26)
+CrashPlayer.Font = Enum.Font.Roboto
+CrashPlayer.Text = "Crash Player"
+CrashPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+CrashPlayer.TextSize = 18.000
+CrashPlayer.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = CrashPlayer
+
+ButtonCrashPlr.Name = "ButtonCrashPlr"
+ButtonCrashPlr.Parent = CrashPlayer
+ButtonCrashPlr.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonCrashPlr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonCrashPlr.BorderSizePixel = 0
+ButtonCrashPlr.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonCrashPlr.Size = UDim2.new(0, 124, 0, 26)
+ButtonCrashPlr.Font = Enum.Font.Roboto
+ButtonCrashPlr.Text = "Click"
+ButtonCrashPlr.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonCrashPlr.TextSize = 18.000
+
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = ButtonCrashPlr
+
+CtrlTeleport.Name = "CtrlTeleport"
+CtrlTeleport.Parent = ScrollingFrameUniversal
+CtrlTeleport.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+CtrlTeleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CtrlTeleport.BorderSizePixel = 0
+CtrlTeleport.Position = UDim2.new(0.000155218717, 0, -0.24778761, 500)
+CtrlTeleport.Size = UDim2.new(0, 436, 0, 26)
+CtrlTeleport.Font = Enum.Font.Roboto
+CtrlTeleport.Text = "Ctrl Teleport"
+CtrlTeleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+CtrlTeleport.TextSize = 18.000
+CtrlTeleport.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = CtrlTeleport
+
+ButtonCtrlTp.Name = "ButtonCtrlTp"
+ButtonCtrlTp.Parent = CtrlTeleport
+ButtonCtrlTp.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonCtrlTp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonCtrlTp.BorderSizePixel = 0
+ButtonCtrlTp.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonCtrlTp.Size = UDim2.new(0, 124, 0, 26)
+ButtonCtrlTp.Font = Enum.Font.Roboto
+ButtonCtrlTp.Text = "Click"
+ButtonCtrlTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonCtrlTp.TextSize = 18.000
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = ButtonCtrlTp
+
+Fly.Name = "Fly"
+Fly.Parent = ScrollingFrameUniversal
+Fly.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.000155218717, 0, -0.227138638, 500)
+Fly.Size = UDim2.new(0, 436, 0, 26)
+Fly.Font = Enum.Font.Roboto
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 18.000
+Fly.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = Fly
+
+ButtonFly.Name = "ButtonFly"
+ButtonFly.Parent = Fly
+ButtonFly.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonFly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonFly.BorderSizePixel = 0
+ButtonFly.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonFly.Size = UDim2.new(0, 124, 0, 26)
+ButtonFly.Font = Enum.Font.Roboto
+ButtonFly.Text = "true / false"
+ButtonFly.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonFly.TextSize = 18.000
+
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = ButtonFly
+
+ReWalkSpeed.Name = "ReWalkSpeed"
+ReWalkSpeed.Parent = ScrollingFrameUniversal
+ReWalkSpeed.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ReWalkSpeed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ReWalkSpeed.BorderSizePixel = 0
+ReWalkSpeed.Position = UDim2.new(0.000155218717, 0, -0.206489682, 500)
+ReWalkSpeed.Size = UDim2.new(0, 436, 0, 26)
+ReWalkSpeed.Font = Enum.Font.Roboto
+ReWalkSpeed.Text = "Reset Walk Speed"
+ReWalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+ReWalkSpeed.TextSize = 18.000
+ReWalkSpeed.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = ReWalkSpeed
+
+ButtonReWalk.Name = "ButtonReWalk"
+ButtonReWalk.Parent = ReWalkSpeed
+ButtonReWalk.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonReWalk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonReWalk.BorderSizePixel = 0
+ButtonReWalk.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonReWalk.Size = UDim2.new(0, 124, 0, 26)
+ButtonReWalk.Font = Enum.Font.Roboto
+ButtonReWalk.Text = "Click"
+ButtonReWalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonReWalk.TextSize = 18.000
+
+UICorner_37.CornerRadius = UDim.new(0, 3)
+UICorner_37.Parent = ButtonReWalk
+
+WalkSpeed2550.Name = "WalkSpeed2550"
+WalkSpeed2550.Parent = ScrollingFrameUniversal
+WalkSpeed2550.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+WalkSpeed2550.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed2550.BorderSizePixel = 0
+WalkSpeed2550.Position = UDim2.new(0.000155218717, 0, -0.185840711, 500)
+WalkSpeed2550.Size = UDim2.new(0, 436, 0, 26)
+WalkSpeed2550.Font = Enum.Font.Roboto
+WalkSpeed2550.Text = "Walk Speed"
+WalkSpeed2550.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed2550.TextSize = 18.000
+WalkSpeed2550.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_38.CornerRadius = UDim.new(0, 3)
+UICorner_38.Parent = WalkSpeed2550
+
+ButtonWalk25.Name = "ButtonWalk25"
+ButtonWalk25.Parent = WalkSpeed2550
+ButtonWalk25.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonWalk25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonWalk25.BorderSizePixel = 0
+ButtonWalk25.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonWalk25.Size = UDim2.new(0, 124, 0, 26)
+ButtonWalk25.Font = Enum.Font.Roboto
+ButtonWalk25.Text = "25"
+ButtonWalk25.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonWalk25.TextSize = 18.000
+
+UICorner_39.CornerRadius = UDim.new(0, 3)
+UICorner_39.Parent = ButtonWalk25
+
+ButtonWalk50.Name = "ButtonWalk50"
+ButtonWalk50.Parent = WalkSpeed2550
+ButtonWalk50.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonWalk50.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonWalk50.BorderSizePixel = 0
+ButtonWalk50.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonWalk50.Size = UDim2.new(0, 124, 0, 26)
+ButtonWalk50.Font = Enum.Font.Roboto
+ButtonWalk50.Text = "50"
+ButtonWalk50.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonWalk50.TextSize = 18.000
+
+UICorner_40.CornerRadius = UDim.new(0, 3)
+UICorner_40.Parent = ButtonWalk50
+
+WalkSpeed100150.Name = "WalkSpeed100150"
+WalkSpeed100150.Parent = ScrollingFrameUniversal
+WalkSpeed100150.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+WalkSpeed100150.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed100150.BorderSizePixel = 0
+WalkSpeed100150.Position = UDim2.new(0.000155218717, 0, -0.16519174, 500)
+WalkSpeed100150.Size = UDim2.new(0, 436, 0, 26)
+WalkSpeed100150.Font = Enum.Font.Roboto
+WalkSpeed100150.Text = "Walk Speed"
+WalkSpeed100150.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed100150.TextSize = 18.000
+WalkSpeed100150.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_41.CornerRadius = UDim.new(0, 3)
+UICorner_41.Parent = WalkSpeed100150
+
+ButtonWalk100.Name = "ButtonWalk100"
+ButtonWalk100.Parent = WalkSpeed100150
+ButtonWalk100.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonWalk100.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonWalk100.BorderSizePixel = 0
+ButtonWalk100.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonWalk100.Size = UDim2.new(0, 124, 0, 26)
+ButtonWalk100.Font = Enum.Font.Roboto
+ButtonWalk100.Text = "100"
+ButtonWalk100.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonWalk100.TextSize = 18.000
+
+UICorner_42.CornerRadius = UDim.new(0, 3)
+UICorner_42.Parent = ButtonWalk100
+
+ButtonWalk150.Name = "ButtonWalk150"
+ButtonWalk150.Parent = WalkSpeed100150
+ButtonWalk150.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonWalk150.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonWalk150.BorderSizePixel = 0
+ButtonWalk150.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonWalk150.Size = UDim2.new(0, 124, 0, 26)
+ButtonWalk150.Font = Enum.Font.Roboto
+ButtonWalk150.Text = "150"
+ButtonWalk150.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonWalk150.TextSize = 18.000
+
+UICorner_43.CornerRadius = UDim.new(0, 3)
+UICorner_43.Parent = ButtonWalk150
+
+ReJumpPower.Name = "ReJumpPower"
+ReJumpPower.Parent = ScrollingFrameUniversal
+ReJumpPower.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ReJumpPower.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ReJumpPower.BorderSizePixel = 0
+ReJumpPower.Position = UDim2.new(0.000155218717, 0, -0.123893805, 500)
+ReJumpPower.Size = UDim2.new(0, 436, 0, 26)
+ReJumpPower.Font = Enum.Font.Roboto
+ReJumpPower.Text = "Reset Jump Power"
+ReJumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+ReJumpPower.TextSize = 18.000
+ReJumpPower.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_44.CornerRadius = UDim.new(0, 3)
+UICorner_44.Parent = ReJumpPower
+
+ButtonReJump.Name = "ButtonReJump"
+ButtonReJump.Parent = ReJumpPower
+ButtonReJump.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonReJump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonReJump.BorderSizePixel = 0
+ButtonReJump.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonReJump.Size = UDim2.new(0, 124, 0, 26)
+ButtonReJump.Font = Enum.Font.Roboto
+ButtonReJump.Text = "Click"
+ButtonReJump.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonReJump.TextSize = 18.000
+
+UICorner_45.CornerRadius = UDim.new(0, 3)
+UICorner_45.Parent = ButtonReJump
+
+JumpPower100150.Name = "JumpPower100150"
+JumpPower100150.Parent = ScrollingFrameUniversal
+JumpPower100150.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+JumpPower100150.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower100150.BorderSizePixel = 0
+JumpPower100150.Position = UDim2.new(0.000155218717, 0, -0.103244841, 500)
+JumpPower100150.Size = UDim2.new(0, 436, 0, 26)
+JumpPower100150.Font = Enum.Font.Roboto
+JumpPower100150.Text = "Jump Power"
+JumpPower100150.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower100150.TextSize = 18.000
+JumpPower100150.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_46.CornerRadius = UDim.new(0, 3)
+UICorner_46.Parent = JumpPower100150
+
+ButtonJump100.Name = "ButtonJump100"
+ButtonJump100.Parent = JumpPower100150
+ButtonJump100.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonJump100.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonJump100.BorderSizePixel = 0
+ButtonJump100.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonJump100.Size = UDim2.new(0, 124, 0, 26)
+ButtonJump100.Font = Enum.Font.Roboto
+ButtonJump100.Text = "100"
+ButtonJump100.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonJump100.TextSize = 18.000
+
+UICorner_47.CornerRadius = UDim.new(0, 3)
+UICorner_47.Parent = ButtonJump100
+
+ButtonJump150.Name = "ButtonJump150"
+ButtonJump150.Parent = JumpPower100150
+ButtonJump150.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonJump150.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonJump150.BorderSizePixel = 0
+ButtonJump150.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonJump150.Size = UDim2.new(0, 124, 0, 26)
+ButtonJump150.Font = Enum.Font.Roboto
+ButtonJump150.Text = "150"
+ButtonJump150.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonJump150.TextSize = 18.000
+
+UICorner_48.CornerRadius = UDim.new(0, 3)
+UICorner_48.Parent = ButtonJump150
+
+JumpPower200250.Name = "JumpPower200250"
+JumpPower200250.Parent = ScrollingFrameUniversal
+JumpPower200250.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+JumpPower200250.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower200250.BorderSizePixel = 0
+JumpPower200250.Position = UDim2.new(0.000155218717, 0, -0.0825958699, 500)
+JumpPower200250.Size = UDim2.new(0, 436, 0, 26)
+JumpPower200250.Font = Enum.Font.Roboto
+JumpPower200250.Text = "Jump Power"
+JumpPower200250.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower200250.TextSize = 18.000
+JumpPower200250.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_49.CornerRadius = UDim.new(0, 3)
+UICorner_49.Parent = JumpPower200250
+
+ButtonJump200.Name = "ButtonJump200"
+ButtonJump200.Parent = JumpPower200250
+ButtonJump200.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonJump200.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonJump200.BorderSizePixel = 0
+ButtonJump200.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonJump200.Size = UDim2.new(0, 124, 0, 26)
+ButtonJump200.Font = Enum.Font.Roboto
+ButtonJump200.Text = "200"
+ButtonJump200.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonJump200.TextSize = 18.000
+
+UICorner_50.CornerRadius = UDim.new(0, 3)
+UICorner_50.Parent = ButtonJump200
+
+ButtonJump250.Name = "ButtonJump250"
+ButtonJump250.Parent = JumpPower200250
+ButtonJump250.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonJump250.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonJump250.BorderSizePixel = 0
+ButtonJump250.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonJump250.Size = UDim2.new(0, 124, 0, 26)
+ButtonJump250.Font = Enum.Font.Roboto
+ButtonJump250.Text = "250"
+ButtonJump250.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonJump250.TextSize = 18.000
+
+UICorner_51.CornerRadius = UDim.new(0, 3)
+UICorner_51.Parent = ButtonJump250
+
+Respawn.Name = "Respawn"
+Respawn.Parent = ScrollingFrameUniversal
+Respawn.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Respawn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Respawn.BorderSizePixel = 0
+Respawn.Position = UDim2.new(0.000155218717, 0, -0.0412979349, 500)
+Respawn.Size = UDim2.new(0, 436, 0, 26)
+Respawn.Font = Enum.Font.Roboto
+Respawn.Text = "Respawn"
+Respawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+Respawn.TextSize = 18.000
+Respawn.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_52.CornerRadius = UDim.new(0, 3)
+UICorner_52.Parent = Respawn
+
+ButtonRespawn.Name = "ButtonRespawn"
+ButtonRespawn.Parent = Respawn
+ButtonRespawn.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonRespawn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonRespawn.BorderSizePixel = 0
+ButtonRespawn.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonRespawn.Size = UDim2.new(0, 124, 0, 26)
+ButtonRespawn.Font = Enum.Font.Roboto
+ButtonRespawn.Text = "Click"
+ButtonRespawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonRespawn.TextSize = 18.000
+
+UICorner_53.CornerRadius = UDim.new(0, 3)
+UICorner_53.Parent = ButtonRespawn
+
+WalkSpeed200300.Name = "WalkSpeed200300"
+WalkSpeed200300.Parent = ScrollingFrameUniversal
+WalkSpeed200300.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+WalkSpeed200300.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed200300.BorderSizePixel = 0
+WalkSpeed200300.Position = UDim2.new(0.000155218717, 0, -0.144542769, 500)
+WalkSpeed200300.Size = UDim2.new(0, 436, 0, 26)
+WalkSpeed200300.Font = Enum.Font.Roboto
+WalkSpeed200300.Text = "Walk Speed"
+WalkSpeed200300.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed200300.TextSize = 18.000
+WalkSpeed200300.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_54.CornerRadius = UDim.new(0, 3)
+UICorner_54.Parent = WalkSpeed200300
+
+ButtonWalk200.Name = "ButtonWalk200"
+ButtonWalk200.Parent = WalkSpeed200300
+ButtonWalk200.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonWalk200.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonWalk200.BorderSizePixel = 0
+ButtonWalk200.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonWalk200.Size = UDim2.new(0, 124, 0, 26)
+ButtonWalk200.Font = Enum.Font.Roboto
+ButtonWalk200.Text = "200"
+ButtonWalk200.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonWalk200.TextSize = 18.000
+
+UICorner_55.CornerRadius = UDim.new(0, 3)
+UICorner_55.Parent = ButtonWalk200
+
+ButtonWalk300.Name = "ButtonWalk300"
+ButtonWalk300.Parent = WalkSpeed200300
+ButtonWalk300.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonWalk300.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonWalk300.BorderSizePixel = 0
+ButtonWalk300.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonWalk300.Size = UDim2.new(0, 124, 0, 26)
+ButtonWalk300.Font = Enum.Font.Roboto
+ButtonWalk300.Text = "300"
+ButtonWalk300.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonWalk300.TextSize = 18.000
+
+UICorner_56.CornerRadius = UDim.new(0, 3)
+UICorner_56.Parent = ButtonWalk300
+
+JumpPower300500.Name = "JumpPower300500"
+JumpPower300500.Parent = ScrollingFrameUniversal
+JumpPower300500.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+JumpPower300500.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower300500.BorderSizePixel = 0
+JumpPower300500.Position = UDim2.new(0.000155218717, 0, -0.0619469024, 500)
+JumpPower300500.Size = UDim2.new(0, 436, 0, 26)
+JumpPower300500.Font = Enum.Font.Roboto
+JumpPower300500.Text = "Jump Power"
+JumpPower300500.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower300500.TextSize = 18.000
+JumpPower300500.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_57.CornerRadius = UDim.new(0, 3)
+UICorner_57.Parent = JumpPower300500
+
+ButtonJump300.Name = "ButtonJump300"
+ButtonJump300.Parent = JumpPower300500
+ButtonJump300.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonJump300.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonJump300.BorderSizePixel = 0
+ButtonJump300.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonJump300.Size = UDim2.new(0, 124, 0, 26)
+ButtonJump300.Font = Enum.Font.Roboto
+ButtonJump300.Text = "300"
+ButtonJump300.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonJump300.TextSize = 18.000
+
+UICorner_58.CornerRadius = UDim.new(0, 3)
+UICorner_58.Parent = ButtonJump300
+
+ButtonJump500.Name = "ButtonJump500"
+ButtonJump500.Parent = JumpPower300500
+ButtonJump500.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonJump500.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonJump500.BorderSizePixel = 0
+ButtonJump500.Position = UDim2.new(0.414148182, 0, -0.0297241211, 0)
+ButtonJump500.Size = UDim2.new(0, 124, 0, 26)
+ButtonJump500.Font = Enum.Font.Roboto
+ButtonJump500.Text = "500"
+ButtonJump500.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonJump500.TextSize = 18.000
+
+UICorner_59.CornerRadius = UDim.new(0, 3)
+UICorner_59.Parent = ButtonJump500
+
+KickPlayer.Name = "KickPlayer"
+KickPlayer.Parent = ScrollingFrameUniversal
+KickPlayer.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+KickPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KickPlayer.BorderSizePixel = 0
+KickPlayer.Position = UDim2.new(0.000155218717, 0, 0, 500)
+KickPlayer.Size = UDim2.new(0, 436, 0, 26)
+KickPlayer.Font = Enum.Font.Roboto
+KickPlayer.Text = "Kick Player"
+KickPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+KickPlayer.TextSize = 18.000
+KickPlayer.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_60.CornerRadius = UDim.new(0, 3)
+UICorner_60.Parent = KickPlayer
+
+ButtonKickPlr.Name = "ButtonKickPlr"
+ButtonKickPlr.Parent = KickPlayer
+ButtonKickPlr.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+ButtonKickPlr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonKickPlr.BorderSizePixel = 0
+ButtonKickPlr.Position = UDim2.new(0.698551834, 0, -0.0297241211, 0)
+ButtonKickPlr.Size = UDim2.new(0, 124, 0, 26)
+ButtonKickPlr.Font = Enum.Font.Roboto
+ButtonKickPlr.Text = "Click"
+ButtonKickPlr.TextColor3 = Color3.fromRGB(255, 255, 255)
+ButtonKickPlr.TextSize = 18.000
+
+UICorner_61.CornerRadius = UDim.new(0, 3)
+UICorner_61.Parent = ButtonKickPlr
+
+GameuiMenu.Name = "GameuiMenu"
+GameuiMenu.Parent = Frame1
+GameuiMenu.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+GameuiMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GameuiMenu.BorderSizePixel = 0
+GameuiMenu.Position = UDim2.new(0.0558684245, 0, 1, 0)
+GameuiMenu.Size = UDim2.new(0, 463, 0, 339)
+GameuiMenu.Visible = false
+
+infsmi.Name = "inf smi"
+infsmi.Parent = GameuiMenu
+infsmi.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+infsmi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infsmi.BorderSizePixel = 0
+infsmi.Position = UDim2.new(0, 0, 0.00010820687, 0)
+infsmi.Size = UDim2.new(0, 259, 0, 29)
+infsmi.Font = Enum.Font.Roboto
+infsmi.Text = "Infectious smile *Work*"
+infsmi.TextColor3 = Color3.fromRGB(255, 255, 255)
+infsmi.TextSize = 15.000
+
+UICorner_62.CornerRadius = UDim.new(0, 50)
+UICorner_62.Parent = infsmi
+
+PriLif.Name = "Pri Lif"
+PriLif.Parent = GameuiMenu
+PriLif.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+PriLif.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PriLif.BorderSizePixel = 0
+PriLif.Position = UDim2.new(0, 0, 0.0827040747, 0)
+PriLif.Size = UDim2.new(0, 259, 0, 29)
+PriLif.Font = Enum.Font.Roboto
+PriLif.Text = "Prison Life *Work*"
+PriLif.TextColor3 = Color3.fromRGB(255, 255, 255)
+PriLif.TextSize = 15.000
+
+UICorner_63.CornerRadius = UDim.new(0, 50)
+UICorner_63.Parent = PriLif
+
+Reme.Name = "Re me"
+Reme.Parent = GameuiMenu
+Reme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Reme.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Reme.BorderSizePixel = 0
+Reme.Position = UDim2.new(0.605979681, 0, -0.0029498525, 0)
+Reme.Size = UDim2.new(0, 183, 0, 22)
+Reme.Font = Enum.Font.Roboto
+Reme.Text = "Read its"
+Reme.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reme.TextSize = 24.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(235, 16, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradient_3.Parent = Reme
+
+Remetext.Name = "Re me text"
+Remetext.Parent = GameuiMenu
+Remetext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Remetext.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Remetext.BorderSizePixel = 0
+Remetext.Position = UDim2.new(0.605979681, 0, 0.226607874, 0)
+Remetext.Size = UDim2.new(0, 183, 0, -55)
+Remetext.Font = Enum.Font.Unknown
+Remetext.Text = "See which games are available and updated"
+Remetext.TextColor3 = Color3.fromRGB(0, 0, 0)
+Remetext.TextScaled = true
+Remetext.TextSize = 14.000
+Remetext.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Remetext.TextWrapped = true
+
+Xclosedestroy.Name = "Xclosedestroy"
+Xclosedestroy.Parent = Frame1
+Xclosedestroy.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Xclosedestroy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Xclosedestroy.BorderSizePixel = 0
+Xclosedestroy.Position = UDim2.new(0.945010185, 0, 0, 0)
+Xclosedestroy.Size = UDim2.new(0, 26, 0, 26)
+Xclosedestroy.Font = Enum.Font.Michroma
+Xclosedestroy.Text = "X"
+Xclosedestroy.TextColor3 = Color3.fromRGB(170, 0, 0)
+Xclosedestroy.TextSize = 20.000
+
+UICorner_64.Parent = Xclosedestroy
+
+ChangelogMenuHome.Name = "ChangelogMenuHome"
+ChangelogMenuHome.Parent = Frame1
+ChangelogMenuHome.BackgroundColor3 = Color3.fromRGB(61, 41, 0)
+ChangelogMenuHome.BackgroundTransparency = 0.800
+ChangelogMenuHome.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChangelogMenuHome.BorderSizePixel = 0
+ChangelogMenuHome.Position = UDim2.new(0.0712830946, 0, 5.42307711, 0)
+ChangelogMenuHome.Size = UDim2.new(0, 444, 0, 215)
+
+Changelog.Name = "Changelog"
+Changelog.Parent = ChangelogMenuHome
+Changelog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Changelog.BackgroundTransparency = 1.000
+Changelog.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Changelog.BorderSizePixel = 0
+Changelog.Size = UDim2.new(0, 200, 0, 37)
+Changelog.Font = Enum.Font.Roboto
+Changelog.Text = "Changelog - Version 0.3f"
+Changelog.TextColor3 = Color3.fromRGB(255, 255, 255)
+Changelog.TextSize = 20.000
+
+upd1.Name = "upd1"
+upd1.Parent = ChangelogMenuHome
+upd1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+upd1.BackgroundTransparency = 1.000
+upd1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+upd1.BorderSizePixel = 0
+upd1.Position = UDim2.new(0, 0, 0.172093019, 0)
+upd1.Size = UDim2.new(0, 289, 0, 33)
+upd1.Font = Enum.Font.Roboto
+upd1.Text = "[*]Home [*]game ui [*]Universal [*]Script"
+upd1.TextColor3 = Color3.fromRGB(255, 255, 255)
+upd1.TextSize = 16.000
+
+upd2.Name = "upd2"
+upd2.Parent = ChangelogMenuHome
+upd2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+upd2.BackgroundTransparency = 1.000
+upd2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+upd2.BorderSizePixel = 0
+upd2.Position = UDim2.new(0, 0, 0.288372099, 0)
+upd2.Size = UDim2.new(0, 386, 0, 33)
+upd2.Font = Enum.Font.Roboto
+upd2.Text = "[*]Visuals [*]Game play [*]Player [*]Tool [*]Fun [*]World"
+upd2.TextColor3 = Color3.fromRGB(255, 255, 255)
+upd2.TextSize = 16.000
+
+upd3.Name = "upd3"
+upd3.Parent = ChangelogMenuHome
+upd3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+upd3.BackgroundTransparency = 1.000
+upd3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+upd3.BorderSizePixel = 0
+upd3.Position = UDim2.new(0, 0, 0.423255801, 0)
+upd3.Size = UDim2.new(0, 373, 0, 33)
+upd3.Font = Enum.Font.Roboto
+upd3.Text = "[*]game ui Work [*]Setting [*]Ui [*]Control [*]Function"
+upd3.TextColor3 = Color3.fromRGB(255, 255, 255)
+upd3.TextSize = 16.000
+
+-- Scripts:
+
+local function BLGZP_fake_script() -- Frame1.LocalScript 
+	local script = Instance.new('LocalScript', Frame1)
+
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.AvatarBust
+	
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	
+	
+	frame.PlayerImage.Image = content
+	
+	frame.PlayerName.Text = player.Name
+end
+coroutine.wrap(BLGZP_fake_script)()
+local function QSDMVZO_fake_script() -- ButtonCrashFPS.LocalScript 
+	local script = Instance.new('LocalScript', ButtonCrashFPS)
+
+	ButtonCrashFPS.MouseButton1Down:Connect(function()
+		local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+		local g = game
+		local w = g.Workspace
+		local l = g.Lighting
+		local t = w.Terrain
+		t.WaterWaveSize = 0
+		t.WaterWaveSpeed = 0
+		t.WaterReflectance = 0
+		t.WaterTransparency = 0
+		l.GlobalShadows = false
+		l.FogEnd = 9e9
+		l.Brightness = 0
+		settings().Rendering.QualityLevel = "Level01"
+		for i, v in pairs(g:GetDescendants()) do
+			if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+				v.Material = "Plastic"
+				v.Reflectance = 0
+			elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+				v.Transparency = 1
+			elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+				v.Lifetime = NumberRange.new(0)
+			elseif v:IsA("Explosion") then
+				v.BlastPressure = 1
+				v.BlastRadius = 1
+			elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+				v.Enabled = false
+			elseif v:IsA("MeshPart") then
+				v.Material = "Plastic"
+				v.Reflectance = 0
+				v.TextureID = 10385902758728957
+			end
+		end
+		for i, e in pairs(l:GetChildren()) do
+			if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+				e.Enabled = false
+			end
+		end
+	end)
+end
+coroutine.wrap(QSDMVZO_fake_script)()
+local function WMCWZN_fake_script() -- ButtonServerHop.LocalScript 
+	local script = Instance.new('LocalScript', ButtonServerHop)
+
+	ButtonServerHop.MouseButton1Down:Connect(function()
+		local Player = game.Players.LocalPlayer    
+		local Http = game:GetService("HttpService")
+		local TPS = game:GetService("TeleportService")
+		local Api = "https://games.roblox.com/v1/games/"
+	
+		local _place,_id = game.PlaceId, game.JobId
+		-- Asc for lowest player count, Desc for highest player count
+		local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=10"
+		function ListServers(cursor)
+			local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+			return Http:JSONDecode(Raw)
+		end
+	
+		time_to_wait = 1 --seconds
+	
+		-- choose a random server and join every 2 minutes
+		while wait(time_to_wait) do
+			--freeze player before teleporting to prevent synapse crash?
+			Player.Character.HumanoidRootPart.Anchored = true
+			local Servers = ListServers()
+			local Server = Servers.data[math.random(1,#Servers.data)]
+			TPS:TeleportToPlaceInstance(_place, Server.id, Player)
+		end
+	end)
+end
+coroutine.wrap(WMCWZN_fake_script)()
+local function IZUVK_fake_script() -- ButtonRejoin.LocalScript 
+	local script = Instance.new('LocalScript', ButtonRejoin)
+
+	ButtonRejoin.MouseButton1Down:Connect(function()
+		local ts = game:GetService("TeleportService")
+	
+		local p = game:GetService("Players").LocalPlayer
+	
+	
+	
+		ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
+	end)
+end
+coroutine.wrap(IZUVK_fake_script)()
+local function MOMCG_fake_script() -- ButtonCursorTrue.LocalScript 
+	local script = Instance.new('LocalScript', ButtonCursorTrue)
+
+	ButtonCursorTrue.MouseButton1Down:Connect(function()
+		local UserInputService = game:GetService("UserInputService")
+		UserInputService.MouseIconEnabled = true
+	end)
+end
+coroutine.wrap(MOMCG_fake_script)()
+local function VYGPJ_fake_script() -- ButtonCursorfalse.LocalScript 
+	local script = Instance.new('LocalScript', ButtonCursorfalse)
+
+	ButtonCursorfalse.MouseButton1Down:Connect(function()
+		local UserInputService = game:GetService("UserInputService")
+		UserInputService.MouseIconEnabled = false
+	end)
+end
+coroutine.wrap(VYGPJ_fake_script)()
+local function MBLPZKM_fake_script() -- Cute.LocalScript 
+	local script = Instance.new('LocalScript', Cute)
+
+	local frame = script.Parent.Parent.Cutefav
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+	
+	local frameU = script.Parent.Parent.UniversalMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameU.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.GameuiMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.SettingMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.ChangelogMenuHome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.User
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.Welcome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerName
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerImage
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PremiumUser
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+end
+coroutine.wrap(MBLPZKM_fake_script)()
+local function RZNDVM_fake_script() -- Gameui.LocalScript 
+	local script = Instance.new('LocalScript', Gameui)
+
+	local frameG = script.Parent.Parent.GameuiMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frameU = script.Parent.Parent.UniversalMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameU.Visible = false
+	end)
+	
+	local frame = script.Parent.Parent.Cutefav
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+	
+	local frameG = script.Parent.Parent.SettingMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.ChangelogMenuHome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.User
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.Welcome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerName
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerImage
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PremiumUser
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+end
+coroutine.wrap(RZNDVM_fake_script)()
+local function DOFIGN_fake_script() -- Universal.LocalScript 
+	local script = Instance.new('LocalScript', Universal)
+
+	local frameU = script.Parent.Parent.UniversalMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameU.Visible = true
+	end)
+	
+	local frame = script.Parent.Parent.Cutefav
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+	local frame = script.Parent.Parent.GameuiMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+	local frame = script.Parent.Parent.SettingMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.ChangelogMenuHome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.User
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.Welcome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerName
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerImage
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PremiumUser
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+end
+coroutine.wrap(DOFIGN_fake_script)()
+local function JIRNUOA_fake_script() -- Setting.LocalScript 
+	local script = Instance.new('LocalScript', Setting)
+
+	local frameG = script.Parent.Parent.SettingMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frame = script.Parent.Parent.Cutefav
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+	local frameU = script.Parent.Parent.UniversalMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameU.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.GameuiMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.ChangelogMenuHome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.User
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.Welcome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerName
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerImage
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.PremiumUser
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+end
+coroutine.wrap(JIRNUOA_fake_script)()
+local function YOHKBV_fake_script() -- Home.LocalScript 
+	local script = Instance.new('LocalScript', Home)
+
+	local frame = script.Parent.Parent.Cutefav
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+	local frameU = script.Parent.Parent.UniversalMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameU.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.GameuiMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.SettingMenu
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = false
+	end)
+	
+	local frameG = script.Parent.Parent.ChangelogMenuHome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frameG = script.Parent.Parent.User
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frameG = script.Parent.Parent.Welcome
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerName
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frameG = script.Parent.Parent.PlayerImage
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+	
+	local frameG = script.Parent.Parent.PremiumUser
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frameG.Visible = true
+	end)
+end
+coroutine.wrap(YOHKBV_fake_script)()
+local function GTRLC_fake_script() -- ButtonTpTool.LocalScript 
+	local script = Instance.new('LocalScript', ButtonTpTool)
+
+	ButtonTpTool.MouseButton1Down:Connect(function()
+		mouse = game.Players.LocalPlayer:GetMouse()
+		tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click Teleport"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	
+	end)
+end
+coroutine.wrap(GTRLC_fake_script)()
+local function QBXU_fake_script() -- ButtonView.LocalScript 
+	local script = Instance.new('LocalScript', ButtonView)
+
+	plrNum = 1
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if i == plrNum then
+			game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+		end
+	end
+	ButtonView.MouseButton1Down:Connect(function()
+		if plrNum < #game.Players:GetPlayers() then
+			plrNum = plrNum + 1
+			for i,v in pairs(game.Players:GetPlayers()) do
+				if i == plrNum then
+					game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(QBXU_fake_script)()
+local function BEAG_fake_script() -- ButtonBackView.LocalScript 
+	local script = Instance.new('LocalScript', ButtonBackView)
+
+	plrNum = 1
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if i == plrNum then
+			game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+		end
+	end
+	ButtonBackView.MouseButton1Down:Connect(function()
+		if plrNum ~= 1 then
+			plrNum = plrNum - 1
+		end
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if i == plrNum then
+				game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+			end
+		end
+	end)
+end
+coroutine.wrap(BEAG_fake_script)()
+local function ZGPC_fake_script() -- ButtonCrashPlr.LocalScript 
+	local script = Instance.new('LocalScript', ButtonCrashPlr)
+
+	ButtonCrashPlr.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, -450, 1)
+	end)
+end
+coroutine.wrap(ZGPC_fake_script)()
+local function TVGXH_fake_script() -- ButtonCtrlTp.LocalScript 
+	local script = Instance.new('LocalScript', ButtonCtrlTp)
+
+	ButtonCtrlTp.MouseButton1Down:Connect(function()
+		local UIS = game:GetService("UserInputService")
+	
+		local Player = game.Players.LocalPlayer
+		local Mouse = Player:GetMouse()
+	
+	
+		function GetCharacter()
+			return game.Players.LocalPlayer.Character
+		end
+	
+		function Teleport(pos)
+			local Char = GetCharacter()
+			if Char then
+				Char:MoveTo(pos)
+			end
+		end
+	
+	
+		UIS.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 and UIS:IsKeyDown(Enum.KeyCode.LeftControl) then
+				Teleport(Mouse.Hit.p)
+			end
+		end)
+	end)
+end
+coroutine.wrap(TVGXH_fake_script)()
+local function KYDP_fake_script() -- ButtonFly.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFly)
+
+	speeds = 1
+	
+	local speaker = game:GetService("Players").LocalPlayer
+	
+	local chr = game.Players.LocalPlayer.Character
+	local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+	
+	nowe = false
+	
+	ButtonFly.MouseButton1Down:Connect(function()
+		if nowe == true then
+			nowe = false
+	
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
+			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
+		else 
+			nowe = true
+	
+			for i = 1, speeds do
+				spawn(function()
+	
+					local hb = game:GetService("RunService").Heartbeat	
+	
+	
+					tpwalking = true
+					local chr = game.Players.LocalPlayer.Character
+					local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+					while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+						if hum.MoveDirection.Magnitude > 0 then
+							chr:TranslateBy(hum.MoveDirection)
+						end
+					end
+	
+				end)
+			end
+			game.Players.LocalPlayer.Character.Animate.Disabled = true
+			local Char = game.Players.LocalPlayer.Character
+			local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
+	
+			for i,v in next, Hum:GetPlayingAnimationTracks() do
+				v:AdjustSpeed(0)
+			end
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
+			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
+		end
+	
+		if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
+			local plr = game.Players.LocalPlayer
+			local torso = plr.Character.Torso
+			local flying = true
+			local deb = true
+			local ctrl = {f = 0, b = 0, l = 0, r = 0}
+			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			local maxspeed = 50
+			local speed = 0
+			local bg = Instance.new("BodyGyro", torso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = torso.CFrame
+			local bv = Instance.new("BodyVelocity", torso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			if nowe == true then
+				plr.Character.Humanoid.PlatformStand = true
+			end
+			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+				game:GetService("RunService").RenderStepped:Wait()
+	
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0,0)
+				end
+				--	game.Players.LocalPlayer.Character.Animate.Disabled = true
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+			end
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+			game.Players.LocalPlayer.Character.Animate.Disabled = false
+			tpwalking = false
+		else
+			local plr = game.Players.LocalPlayer
+			local UpperTorso = plr.Character.UpperTorso
+			local flying = true
+			local deb = true
+			local ctrl = {f = 0, b = 0, l = 0, r = 0}
+			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			local maxspeed = 50
+			local speed = 0
+	
+	
+			local bg = Instance.new("BodyGyro", UpperTorso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = UpperTorso.CFrame
+			local bv = Instance.new("BodyVelocity", UpperTorso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			if nowe == true then
+				plr.Character.Humanoid.PlatformStand = true
+			end
+			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+				wait()
+	
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0,0)
+				end
+	
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+			end
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+			game.Players.LocalPlayer.Character.Animate.Disabled = false
+			tpwalking = false
+		end
+	end)
+end
+coroutine.wrap(KYDP_fake_script)()
+local function BOLH_fake_script() -- ButtonReWalk.LocalScript 
+	local script = Instance.new('LocalScript', ButtonReWalk)
+
+	ButtonReWalk.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+end
+coroutine.wrap(BOLH_fake_script)()
+local function XCXTM_fake_script() -- ButtonWalk25.LocalScript 
+	local script = Instance.new('LocalScript', ButtonWalk25)
+
+	ButtonWalk25.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+	end)
+end
+coroutine.wrap(XCXTM_fake_script)()
+local function HADJHKR_fake_script() -- ButtonWalk50.LocalScript 
+	local script = Instance.new('LocalScript', ButtonWalk50)
+
+	ButtonWalk50.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+	end)
+end
+coroutine.wrap(HADJHKR_fake_script)()
+local function PCBGYN_fake_script() -- ButtonWalk100.LocalScript 
+	local script = Instance.new('LocalScript', ButtonWalk100)
+
+	ButtonWalk100.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+end
+coroutine.wrap(PCBGYN_fake_script)()
+local function JPLSC_fake_script() -- ButtonWalk150.LocalScript 
+	local script = Instance.new('LocalScript', ButtonWalk150)
+
+	ButtonWalk150.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
+	end)
+end
+coroutine.wrap(JPLSC_fake_script)()
+local function KLCZEZ_fake_script() -- ButtonReJump.LocalScript 
+	local script = Instance.new('LocalScript', ButtonReJump)
+
+	ButtonReJump.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end)
+end
+coroutine.wrap(KLCZEZ_fake_script)()
+local function QUMMO_fake_script() -- ButtonJump100.LocalScript 
+	local script = Instance.new('LocalScript', ButtonJump100)
+
+	ButtonJump100.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+	end)
+end
+coroutine.wrap(QUMMO_fake_script)()
+local function JYFEOM_fake_script() -- ButtonJump150.LocalScript 
+	local script = Instance.new('LocalScript', ButtonJump150)
+
+	ButtonJump150.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
+	end)
+end
+coroutine.wrap(JYFEOM_fake_script)()
+local function QZMS_fake_script() -- ButtonJump200.LocalScript 
+	local script = Instance.new('LocalScript', ButtonJump200)
+
+	ButtonJump200.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+	end)
+end
+coroutine.wrap(QZMS_fake_script)()
+local function HUOENOA_fake_script() -- ButtonJump250.LocalScript 
+	local script = Instance.new('LocalScript', ButtonJump250)
+
+	ButtonJump250.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 250
+	end)
+end
+coroutine.wrap(HUOENOA_fake_script)()
+local function OPFP_fake_script() -- ButtonRespawn.LocalScript 
+	local script = Instance.new('LocalScript', ButtonRespawn)
+
+	ButtonRespawn.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+coroutine.wrap(OPFP_fake_script)()
+local function VAFZVA_fake_script() -- ButtonWalk200.LocalScript 
+	local script = Instance.new('LocalScript', ButtonWalk200)
+
+	ButtonWalk200.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+	end)
+end
+coroutine.wrap(VAFZVA_fake_script)()
+local function NKVII_fake_script() -- ButtonWalk300.LocalScript 
+	local script = Instance.new('LocalScript', ButtonWalk300)
+
+	ButtonWalk300.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 300
+	end)
+end
+coroutine.wrap(NKVII_fake_script)()
+local function NJIAE_fake_script() -- ButtonJump300.LocalScript 
+	local script = Instance.new('LocalScript', ButtonJump300)
+
+	ButtonJump300.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 300
+	end)
+end
+coroutine.wrap(NJIAE_fake_script)()
+local function MDBYION_fake_script() -- ButtonJump500.LocalScript 
+	local script = Instance.new('LocalScript', ButtonJump500)
+
+	ButtonJump500.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
+	end)
+end
+coroutine.wrap(MDBYION_fake_script)()
+local function ULSJXIV_fake_script() -- ButtonKickPlr.LocalScript 
+	local script = Instance.new('LocalScript', ButtonKickPlr)
+
+	ButtonKickPlr.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer:Kick("You've Quit the Game!")
+	end)
+end
+coroutine.wrap(ULSJXIV_fake_script)()
+local function FRVRZVM_fake_script() -- Xclosedestroy.LocalScript 
+	local script = Instance.new('LocalScript', Xclosedestroy)
+
+	local XCloseDestroy = script.Parent
+	
+	XCloseDestroy.MouseButton1Click:Connect(function()
+	    script.Parent.Parent.Parent.Parent:Destroy() --this references the ScreenGui that everything is connected to, therefore destroying everything (I think)
+	end)
+end
+coroutine.wrap(FRVRZVM_fake_script)()
+local function ANPWKH_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
+
+	Frame = script.Parent.Frame1
+	Frame.Draggable = true
+	Frame.Active = true
+	Frame.Selectable = true
+end
+coroutine.wrap(ANPWKH_fake_script)()
+local function NSJCSN_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
+
+	local userinputService = game:GetService("UserInputService")
+	local Frame1 = script.Parent.Frame1-- Location of your Frame/Button..
+	
+	
+	userinputService.InputBegan:Connect(function(Key,Processed)
+		if Processed then return end
+		if Key.KeyCode == Enum.KeyCode.LeftAlt then -- Change 'R' to your KeyCode.
+			Frame1.Visible = not Frame1.Visible
+		end
+	end)
+end
+coroutine.wrap(NSJCSN_fake_script)()
+local function QKOAP_fake_script() -- ScreenGuiEralipaZXv03f.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGuiEralipaZXv03f)
+
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Eralipa ZX",
+		Text = "loading . . .",
+	})
+	
+	wait(3)
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Eralipa ZX",
+		Text = "Completed, Welcome to Eralipa ZX v0.3f",
+	})
+end
+coroutine.wrap(QKOAP_fake_script)()
